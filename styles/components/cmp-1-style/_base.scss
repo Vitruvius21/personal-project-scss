@@ -1,0 +1,31 @@
+$navbar-font: "Open Sans", sans-serif;
+
+.cmp-1 {
+  background: $project-dark-grey;
+
+  .flex_container {
+    @include flex($justify-content: space-between);
+    margin: 0 auto;
+
+    .icon {
+      @include position-relative($top: -0.5px, $left: -1px);
+    }
+
+    ul {
+      width: 63.3%;
+      @include flex($justify-content: space-between);
+      font: {
+        family: $navbar-font;
+        size: 14px;
+      }
+      list-style-type: none;
+
+      a {
+        color: $project-white;
+        text-decoration: none;
+        user-select: none;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120.428" height="41.014">
+   <defs>
+      <linearGradient id="prefix__a" x1=".413" y1=".78" x2=".587" y2=".22" gradientUnits="objectBoundingBox">
+         <stop offset="0" stop-color="#1b9a96" />
+         <stop offset="1" stop-color="#005a57" />
+      </linearGradient>
+      <linearGradient id="prefix__b" x1="1.19" y1=".702" x2="-.19" y2=".298" gradientUnits="objectBoundingBox">
+         <stop offset="0" stop-color="#21a09c" />
+         <stop offset="1" stop-color="#005653" />
+      </linearGradient>
+      <linearGradient id="prefix__c" x1=".71" y1=".895" x2=".29" y2=".105" gradientUnits="objectBoundingBox">
+         <stop offset="0" stop-color="#00807c" />
+         <stop offset="1" stop-color="#3ab6b2" />
+      </linearGradient>
+   </defs>
+   <path data-name="Path 1"
+      d="M37.376 15.44h1.584L49.76 41h-1.944l-3.484-8.424H31.981L28.484 41H26.5zm6.33 15.624l-5.538-13.392-5.559 13.392zM54.224 41V15.44h10.62a6.555 6.555 0 013.006.684 7.691 7.691 0 012.34 1.818 8.738 8.738 0 011.548 2.538 7.733 7.733 0 01.558 2.88 8.479 8.479 0 01-.756 3.564 7.677 7.677 0 01-2.106 2.776 6.189 6.189 0 01-3.15 1.368L72.656 41h-2.124l-6.192-9.648h-8.28V41zm1.836-11.34h8.964a4.729 4.729 0 002.88-.9 5.945 5.945 0 001.89-2.34 7.2 7.2 0 00.666-3.06 6.336 6.336 0 00-.774-3.078 6.562 6.562 0 00-2.052-2.3 4.923 4.923 0 00-2.862-.882H56.06zM78.164 41V15.44h10.62a6.555 6.555 0 013.006.684 7.691 7.691 0 012.34 1.818 8.738 8.738 0 011.548 2.538 7.733 7.733 0 01.558 2.88 8.479 8.479 0 01-.756 3.564 7.677 7.677 0 01-2.106 2.776 6.189 6.189 0 01-3.15 1.368L96.6 41h-2.128l-6.192-9.648H80V41zM80 29.66h8.964a4.729 4.729 0 002.88-.9 5.945 5.945 0 001.89-2.34 7.2 7.2 0 00.666-3.06 6.336 6.336 0 00-.774-3.078 6.562 6.562 0 00-2.052-2.3 4.923 4.923 0 00-2.862-.882H80zm20.484-14.22l8.928 14.148 8.964-14.148h2.052l-10.08 15.912V41h-1.836v-9.72L98.468 15.44z"
+      fill="#fff" />
+   <g data-name="Shape 30">
+      <path data-name="Shape 30" d="M10.527 20.418l10.366-5.833 6.027 5.1-16.313 8.832z" fill="#3ab6b2" />
+      <path data-name="Gradient Overlay" d="M385.527 47.418l10.366-5.833 6.027 5.1-16.313 8.832z" opacity=".77"
+         fill="url(#prefix__a)" transform="translate(-375 -27)" />
+   </g>
+   <g data-name="Shape 31">
+      <path data-name="Shape 31" d="M.08 4.538l7.715 3.646.031 32.831L.08 41z" fill="#3ab6b2" />
+      <path data-name="Gradient Overlay" d="M375.08 31.538l7.715 3.646.031 32.831L375.08 68z" opacity=".77"
+         fill="url(#prefix__b)" transform="translate(-375 -27)" />
+   </g>
+   <g data-name="Shape 29">
+      <path data-name="Shape 29" d="M0 4.538L7.634 0 27 11.1l-.08 8.669z" fill="#3ab6b2" />
+      <path data-name="Gradient Overlay" d="M375 31.538L382.634 27 402 38.1l-.08 8.669z" opacity=".77"
+         fill="url(#prefix__c)" transform="translate(-375 -27)" />
+   </g>
+</svg>

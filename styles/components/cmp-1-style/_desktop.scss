@@ -1,0 +1,14 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .cmp-1 {
+    .flex_container {
+      width: 61.2%;
+      height: 100px;
+      max-height: 100px;
+      min-width: 715px;
+
+      ul {
+        min-width: 550px;
+      }
+    }
+  }
+}
