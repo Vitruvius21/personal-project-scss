@@ -1,14 +1,26 @@
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .cmp-1 {
+    @include flex;
+
     .flex_container {
-      width: 87%;
-      height: 67px;
+      width: 93.12046936114733vw;
+      height: 14.08083441981747vw;
+      margin: 0 21px;
+      min-height: 67px;
       max-height: 108px;
 
       .icon {
-        width: 89.75px;
-        height: 38.49px;
+        width: 28vw;
+        height: auto;
+        min-width: 85.75px;
+        min-height: 38.49px;
         top: 0.4161458333333333vw;
+        left: 0;
+
+        img {
+          max-width: 100%;
+          height: auto;
+        }
       }
 
       ul {
@@ -17,13 +29,18 @@
       }
 
       .burger_menu {
-        @include bordered-button($width: 48px, $height: 31px);
+        @include bordered-button(
+          $width: 7.291666666666667vw,
+          $height: 5.208333333333333vw
+        );
+        min-width: 48px;
+        min-height: 31px;
         flex-direction: column;
         row-gap: 3px;
-
         .burger_lines {
           background: white;
-          width: 22px;
+          width: 3.90625vw;
+          min-width: 22px;
           height: 2px;
         }
       }

@@ -1,0 +1,17 @@
+$navbar-font: "Open Sans", sans-serif;
+
+.cmp-2.flex_container {
+  @include flex($justify-content: space-between);
+  width: 100%;
+
+  .inner_flex_container {
+    @include flex($justify-content: space-between);
+  }
+
+  a {
+    color: $project-white;
+    text-decoration: none;
+    user-select: none;
+    text-transform: uppercase;
+  }
+}

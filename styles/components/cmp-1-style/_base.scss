@@ -25,6 +25,11 @@ $navbar-font: "Open Sans", sans-serif;
         text-decoration: none;
         user-select: none;
         text-transform: uppercase;
+        transition: color linear 0.1s;
+
+        &:hover {
+          color: $project-green;
+        }
       }
     }
     .burger_menu {

@@ -188,13 +188,19 @@ body {
       -ms-user-select: none;
           user-select: none;
   text-transform: uppercase;
+  -webkit-transition: color linear 0.1s;
+  transition: color linear 0.1s;
+}
+
+.cmp-1 .flex_container ul a:hover {
+  color: #3ab6b2;
 }
 
 .cmp-1 .flex_container .burger_menu {
   display: none;
 }
 
-@media (min-width: 1601px) and (max-width: 1920px) {
+@media (min-width: 1601px) {
   .cmp-1 .flex_container {
     width: 61.2%;
     height: 100px;
@@ -202,34 +208,33 @@ body {
   }
 }
 
-@media (min-width: 1025px) and (max-width: 1600px) {
+@media (min-width: 1201px) and (max-width: 1600px) {
   .cmp-1 .flex_container {
     width: 61.2%;
     height: 100px;
     max-height: 100px;
-    min-width: 715px;
+    min-width: 970px;
   }
   .cmp-1 .flex_container ul {
     min-width: 550px;
   }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
   .cmp-1 .flex_container {
     width: 61.2%;
     height: 100px;
     max-height: 100px;
-    min-width: 715px;
+    min-width: 970px;
   }
   .cmp-1 .flex_container ul {
     min-width: 550px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .cmp-1 .flex_container {
     width: auto;
-    margin: 0 26.875px;
     min-width: 278.391px;
     max-width: 93%;
     height: 14.0625vw;
@@ -237,11 +242,80 @@ body {
     max-height: 108px;
   }
   .cmp-1 .flex_container .icon {
-    width: 15.5vw;
-    height: 5.859375vw;
-    min-width: 85.84px;
+    top: -0.5557291666666667vw;
+  }
+  .cmp-1 .flex_container ul {
+    display: none;
+  }
+  .cmp-1 .flex_container .burger_menu {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 7.29167vw;
+    height: 5.20833vw;
+    background: #3ab6b2;
+    background: #3ab6b2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 3px;
+  }
+  .cmp-1 .flex_container .burger_menu::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: 1px solid white;
+    width: 88%;
+    height: 82%;
+  }
+  .cmp-1 .flex_container .burger_menu .burger_lines {
+    background: white;
+    width: 3.90625vw;
+    height: 2px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-1 .flex_container {
+    width: 93.12046936114733vw;
+    height: 14.08083441981747vw;
+    margin: 0 21px;
+    min-height: 67px;
+    max-height: 108px;
+  }
+  .cmp-1 .flex_container .icon {
+    width: 28vw;
+    height: auto;
+    min-width: 85.75px;
     min-height: 38.49px;
-    top: -0.4557291666666667vw;
+    top: 0.4161458333333333vw;
+    left: 0;
+  }
+  .cmp-1 .flex_container .icon img {
+    max-width: 100%;
+    height: auto;
   }
   .cmp-1 .flex_container ul {
     display: none;
@@ -263,7 +337,6 @@ body {
     background: #3ab6b2;
     min-width: 48px;
     min-height: 31px;
-    background: #3ab6b2;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -283,62 +356,59 @@ body {
   }
   .cmp-1 .flex_container .burger_menu .burger_lines {
     background: white;
-    min-width: 22px;
     width: 3.90625vw;
+    min-width: 22px;
     height: 2px;
   }
 }
 
-@media (max-width: 320px) {
-  .cmp-1 .flex_container {
-    width: 87%;
-    height: 67px;
-    max-height: 108px;
+.cmp-2.flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.cmp-2.flex_container .inner_flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cmp-2.flex_container a {
+  color: white;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-2.flex_container {
+    background: darkgoldenrod;
+    height: 39.93694167104572vw;
+    max-height: 760px;
   }
-  .cmp-1 .flex_container .icon {
-    width: 89.75px;
-    height: 38.49px;
-    top: 0.4161458333333333vw;
-  }
-  .cmp-1 .flex_container ul {
-    display: none;
-    min-width: 550px;
-  }
-  .cmp-1 .flex_container .burger_menu {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 48px;
-    height: 31px;
-    background: #3ab6b2;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    row-gap: 3px;
-  }
-  .cmp-1 .flex_container .burger_menu::before {
-    position: absolute;
-    content: "";
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    border: 1px solid white;
-    width: 88%;
-    height: 82%;
-  }
-  .cmp-1 .flex_container .burger_menu .burger_lines {
-    background: white;
-    width: 22px;
-    height: 2px;
+  .cmp-2.flex_container .inner_flex_container {
+    background: seagreen;
+    width: 708px;
+    max-width: 708px;
+    height: 276px;
+    max-height: 276px;
   }
 }
 /*# sourceMappingURL=main.css.map */

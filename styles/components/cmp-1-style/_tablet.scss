@@ -1,8 +1,7 @@
-@media (min-width: 321px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .cmp-1 {
     .flex_container {
       width: auto;
-      margin: 0 26.875px;
       min-width: 278.391px;
       max-width: 93%;
       height: 14.0625vw;
@@ -10,16 +9,11 @@
       max-height: 108px;
 
       .icon {
-        width: 15.5vw;
-        height: 5.859375vw;
-        min-width: 85.84px;
-        min-height: 38.49px;
-        top: -0.4557291666666667vw;
+        top: -0.5557291666666667vw;
       }
 
       ul {
         display: none;
-        min-width: 550px;
       }
 
       .burger_menu {
@@ -27,15 +21,12 @@
           $width: 7.291666666666667vw,
           $height: 5.208333333333333vw
         );
-        min-width: 48px;
-        min-height: 31px;
         background: $project-green;
         flex-direction: column;
         row-gap: 3px;
 
         .burger_lines {
           background: white;
-          min-width: 22px;
           width: 3.90625vw;
           height: 2px;
         }
