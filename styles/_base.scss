@@ -1,4 +1,7 @@
 $fa-font: "FontAwesome";
+$raleway-font: "Raleway", sans-serif;
+$montserrat-font: "Montserrat", sans-serif;
+$navbar-font: "Open Sans", sans-serif;
 
 @mixin flex($justify-content: center, $align-items: center) {
   display: flex;
@@ -34,6 +37,23 @@ $fa-font: "FontAwesome";
     width: $before-width;
     height: $before-height;
   }
+
+  &:hover {
+    background: $project-green-hover;
+  }
+
+  &:active {
+    background: $project-green;
+  }
+}
+
+@mixin font($font-size, $font-weight, $line-height, $font-name: $raleway-font) {
+  font: {
+    family: $font-name;
+    size: $font-size;
+    weight: $font-weight;
+  }
+  line-height: $line-height;
 }
 
 * {

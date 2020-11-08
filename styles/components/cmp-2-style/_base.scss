@@ -1,11 +1,68 @@
-$navbar-font: "Open Sans", sans-serif;
-
 .cmp-2.flex_container {
   @include flex($justify-content: space-between);
   width: 100%;
+  text-align: center;
+  color: $project-white;
+  background: $project-grey;
 
   .inner_flex_container {
-    @include flex($justify-content: space-between);
+    @include position-relative($top: 0, $left: 11px);
+    @include flex($justify-content: flex-start);
+    flex-direction: column;
+    height: 267px;
+
+    h2 {
+      @include font(62px, 200, 73px);
+    }
+
+    h1 {
+      @include font(74px, 700, 88.8px, $font-name: $montserrat-font);
+      letter-spacing: -0.029em;
+
+      span:nth-child(1) {
+        @include position-relative($top: 0px, $left: -7px);
+      }
+
+      span:nth-child(2) {
+        @include position-relative($top: 0px, $left: -4px);
+      }
+    }
+
+    p {
+      @include font(20px, 300, 24px);
+      letter-spacing: -0.004em;
+    }
+
+    button {
+      @include font(13px, 700, 34px);
+      letter-spacing: 0.005em;
+      @include bordered-button($before-width: 94%);
+      @include position-relative($top: 32px, $left: 0);
+      cursor: pointer;
+      border: none;
+    }
+  }
+
+  .arrows {
+    @include flex;
+    font-size: 70px;
+    width: 80px;
+    height: 100%;
+    cursor: pointer;
+    transition-duration: 0.6s;
+    user-select: none;
+
+    &:hover {
+      background: hsl(0, 0%, 20%);
+    }
+
+    &:active {
+      background: hsl(0, 0%, 17%);
+    }
+
+    .fa {
+      @include position-relative($top: -62px, $left: 0);
+    }
   }
 
   a {

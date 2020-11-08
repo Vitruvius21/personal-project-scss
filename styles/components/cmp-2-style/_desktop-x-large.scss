@@ -1,15 +1,26 @@
 @media (min-width: 1601px) and (max-width: 1920px) {
   .cmp-2.flex_container {
-    background: darkgoldenrod;
     height: 39.93694167104572vw;
+    min-height: 593px;
     max-height: 760px;
 
     .inner_flex_container {
-      background: seagreen;
-      width: 708px;
-      max-width: 708px;
+      width: 50vw;
+      max-width: 738px;
       height: 276px;
       max-height: 276px;
+
+      h2 {
+        @include position-relative($top: -5px, $left: 0px);
+      }
+
+      h1 {
+        @include position-relative($top: -12px, $left: 0px);
+      }
+
+      p {
+        @include position-relative($top: -7px, $left: -2px);
+      }
     }
   }
 }

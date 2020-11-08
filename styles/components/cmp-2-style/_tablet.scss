@@ -1,0 +1,37 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-2.flex_container {
+    @include flex;
+    height: 39.93694167104572vw;
+    min-height: 593px;
+
+    .inner_flex_container {
+      @include position-relative($top: -2px, $left: 0px);
+      width: 96vw;
+      height: 276px;
+      max-height: 276px;
+
+      h2 {
+        @include font(58.81px, 200, 70.57px);
+        @include position-relative($top: -5px, $left: 0px);
+      }
+
+      h1 {
+        @include font(71.77px, 700, 86.12px, $font-name: $montserrat-font);
+        @include position-relative($top: -12px, $left: 0px);
+      }
+
+      p {
+        @include font(18.94px, 300, 22.73px);
+        @include position-relative($top: -7px, $left: -2px);
+      }
+
+      button {
+        @include position-relative($top: 29px, $left: -2px);
+      }
+    }
+
+    .arrows {
+      display: none;
+    }
+  }
+}

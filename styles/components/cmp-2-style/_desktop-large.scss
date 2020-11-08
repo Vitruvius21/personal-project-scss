@@ -1,0 +1,28 @@
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-2.flex_container {
+    height: 39.93694167104572vw;
+    min-height: 593px;
+
+    .inner_flex_container {
+      width: 80vw;
+      height: 276px;
+      max-height: 276px;
+
+      h2 {
+        @include position-relative($top: -5px, $left: 0px);
+      }
+
+      h1 {
+        @include position-relative($top: -12px, $left: 0px);
+      }
+
+      p {
+        @include position-relative($top: -7px, $left: -2px);
+      }
+    }
+
+    .arrows {
+      font-size: 70px;
+    }
+  }
+}

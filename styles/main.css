@@ -279,6 +279,12 @@ body {
     width: 88%;
     height: 82%;
   }
+  .cmp-1 .flex_container .burger_menu:hover {
+    background: #33a39f;
+  }
+  .cmp-1 .flex_container .burger_menu:active {
+    background: #3ab6b2;
+  }
   .cmp-1 .flex_container .burger_menu .burger_lines {
     background: white;
     width: 3.90625vw;
@@ -354,6 +360,12 @@ body {
     width: 88%;
     height: 82%;
   }
+  .cmp-1 .flex_container .burger_menu:hover {
+    background: #33a39f;
+  }
+  .cmp-1 .flex_container .burger_menu:active {
+    background: #3ab6b2;
+  }
   .cmp-1 .flex_container .burger_menu .burger_lines {
     background: white;
     width: 3.90625vw;
@@ -373,18 +385,146 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  text-align: center;
+  color: white;
+  background: #292929;
 }
 
 .cmp-2.flex_container .inner_flex_container {
+  position: relative;
+  top: 0;
+  left: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 267px;
+}
+
+.cmp-2.flex_container .inner_flex_container h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 62px;
+  font-weight: 200;
+  line-height: 73px;
+}
+
+.cmp-2.flex_container .inner_flex_container h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 88.8px;
+  letter-spacing: -0.029em;
+}
+
+.cmp-2.flex_container .inner_flex_container h1 span:nth-child(1) {
+  position: relative;
+  top: 0px;
+  left: -7px;
+}
+
+.cmp-2.flex_container .inner_flex_container h1 span:nth-child(2) {
+  position: relative;
+  top: 0px;
+  left: -4px;
+}
+
+.cmp-2.flex_container .inner_flex_container p {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: -0.004em;
+}
+
+.cmp-2.flex_container .inner_flex_container button {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.005em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 144px;
+  height: 44px;
+  background: #3ab6b2;
+  position: relative;
+  top: 32px;
+  left: 0;
+  cursor: pointer;
+  border: none;
+}
+
+.cmp-2.flex_container .inner_flex_container button::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid white;
+  width: 94%;
+  height: 82%;
+}
+
+.cmp-2.flex_container .inner_flex_container button:hover {
+  background: #33a39f;
+}
+
+.cmp-2.flex_container .inner_flex_container button:active {
+  background: #3ab6b2;
+}
+
+.cmp-2.flex_container .arrows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 70px;
+  width: 80px;
+  height: 100%;
+  cursor: pointer;
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.cmp-2.flex_container .arrows:hover {
+  background: #333333;
+}
+
+.cmp-2.flex_container .arrows:active {
+  background: #2b2b2b;
+}
+
+.cmp-2.flex_container .arrows .fa {
+  position: relative;
+  top: -62px;
+  left: 0;
 }
 
 .cmp-2.flex_container a {
@@ -399,16 +539,245 @@ body {
 
 @media (min-width: 1601px) and (max-width: 1920px) {
   .cmp-2.flex_container {
-    background: darkgoldenrod;
     height: 39.93694167104572vw;
+    min-height: 593px;
     max-height: 760px;
   }
   .cmp-2.flex_container .inner_flex_container {
-    background: seagreen;
-    width: 708px;
-    max-width: 708px;
+    width: 50vw;
+    max-width: 738px;
     height: 276px;
     max-height: 276px;
+  }
+  .cmp-2.flex_container .inner_flex_container h2 {
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container h1 {
+    position: relative;
+    top: -12px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container p {
+    position: relative;
+    top: -7px;
+    left: -2px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-2.flex_container {
+    height: 39.93694167104572vw;
+    min-height: 593px;
+  }
+  .cmp-2.flex_container .inner_flex_container {
+    width: 80vw;
+    height: 276px;
+    max-height: 276px;
+  }
+  .cmp-2.flex_container .inner_flex_container h2 {
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container h1 {
+    position: relative;
+    top: -12px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container p {
+    position: relative;
+    top: -7px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .arrows {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-2.flex_container {
+    height: 39.93694167104572vw;
+    min-height: 593px;
+  }
+  .cmp-2.flex_container .inner_flex_container {
+    width: 80vw;
+    max-width: 738px;
+    height: 276px;
+    max-height: 276px;
+  }
+  .cmp-2.flex_container .inner_flex_container h2 {
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container h1 {
+    position: relative;
+    top: -12px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container p {
+    position: relative;
+    top: -7px;
+    left: -2px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-2.flex_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 39.93694167104572vw;
+    min-height: 593px;
+  }
+  .cmp-2.flex_container .inner_flex_container {
+    position: relative;
+    top: -2px;
+    left: 0px;
+    width: 96vw;
+    height: 276px;
+    max-height: 276px;
+  }
+  .cmp-2.flex_container .inner_flex_container h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 58.81px;
+    font-weight: 200;
+    line-height: 70.57px;
+    position: relative;
+    top: -5px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 71.77px;
+    font-weight: 700;
+    line-height: 86.12px;
+    position: relative;
+    top: -12px;
+    left: 0px;
+  }
+  .cmp-2.flex_container .inner_flex_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 18.94px;
+    font-weight: 300;
+    line-height: 22.73px;
+    position: relative;
+    top: -7px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .inner_flex_container button {
+    position: relative;
+    top: 29px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .arrows {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-2.flex_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 65.93694167104572vw;
+    min-height: 212px;
+  }
+  .cmp-2.flex_container .inner_flex_container {
+    position: relative;
+    top: -2px;
+    left: 0px;
+    width: 95vw;
+    height: 35.9375vw;
+  }
+  .cmp-2.flex_container .inner_flex_container h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 30px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .inner_flex_container h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    position: relative;
+    top: -4px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .inner_flex_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 10.8px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+  }
+  .cmp-2.flex_container .inner_flex_container p span {
+    display: none;
+  }
+  .cmp-2.flex_container .inner_flex_container button {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 18.75vw;
+    height: 5.72917vw;
+    background: #3ab6b2;
+    min-width: 64px;
+    max-height: 26.641px;
+    max-width: 81.75px;
+    font-family: "Raleway", sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 13.77px;
+    position: relative;
+    top: 14px;
+    left: -1.5px;
+  }
+  .cmp-2.flex_container .inner_flex_container button::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    border: 1px solid white;
+    width: 94%;
+    height: 82%;
+  }
+  .cmp-2.flex_container .inner_flex_container button:hover {
+    background: #33a39f;
+  }
+  .cmp-2.flex_container .inner_flex_container button:active {
+    background: #3ab6b2;
+  }
+  .cmp-2.flex_container .arrows {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */
