@@ -1,3 +1,5 @@
+$fa-font: "FontAwesome";
+
 @mixin flex($justify-content: center, $align-items: center) {
   display: flex;
   justify-content: $justify-content;
@@ -8,6 +10,30 @@
   position: relative;
   top: $top;
   left: $left;
+}
+
+@mixin bordered-button(
+  $width: 144px,
+  $height: 44px,
+  $before-width: 88%,
+  $before-height: 82%
+) {
+  position: relative;
+  @include flex;
+  width: $width;
+  height: $height;
+  background: $project-green;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    width: $before-width;
+    height: $before-height;
+  }
 }
 
 * {

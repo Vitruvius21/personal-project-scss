@@ -1,2 +1,32 @@
 @media (max-width: 320px) {
+  .cmp-1 {
+    .flex_container {
+      width: 87%;
+      height: 67px;
+      max-height: 108px;
+
+      .icon {
+        width: 89.75px;
+        height: 38.49px;
+        top: 0.4161458333333333vw;
+      }
+
+      ul {
+        display: none;
+        min-width: 550px;
+      }
+
+      .burger_menu {
+        @include bordered-button($width: 48px, $height: 31px);
+        flex-direction: column;
+        row-gap: 3px;
+
+        .burger_lines {
+          background: white;
+          width: 22px;
+          height: 2px;
+        }
+      }
+    }
+  }
 }
