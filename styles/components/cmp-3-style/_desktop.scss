@@ -18,10 +18,11 @@
 
       .gritem-2 {
         flex: 0 51.1%;
-        padding-right: 10px;
+        padding-right: 30px;
         align-self: center;
 
         img {
+          @include position-relative($top: 10px, $left: 5px);
           display: inline-block;
           max-width: 100%;
           height: auto;

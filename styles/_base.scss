@@ -44,6 +44,22 @@ $navbar-font: "Open Sans", sans-serif;
   }
 }
 
+@mixin button($width: 144px, $height: 44px) {
+  width: $width;
+  height: $height;
+  background: $project-green;
+  border: none;
+  cursor: pointer;
+  @include font(13px, 700, 34px);
+  letter-spacing: 0.005em;
+  &:hover {
+    background: $project-green-hover;
+  }
+  &:active {
+    background: $project-green;
+  }
+}
+
 @mixin font($font-size, $font-weight, $line-height, $font-name: $raleway-font) {
   font: {
     family: $font-name;
@@ -81,4 +97,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   width: 100%;
+
+  a {
+    color: $project-white;
+    text-decoration: none;
+    user-select: none;
+    text-transform: uppercase;
+  }
 }

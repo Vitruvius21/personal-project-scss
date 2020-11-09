@@ -64,11 +64,4 @@
       @include position-relative($top: -62px, $left: 0);
     }
   }
-
-  a {
-    color: $project-white;
-    text-decoration: none;
-    user-select: none;
-    text-transform: uppercase;
-  }
 }

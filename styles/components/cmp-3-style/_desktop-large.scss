@@ -23,6 +23,7 @@
         align-self: center;
 
         img {
+          @include position-relative($top: 10px, $left: 5px);
           display: inline-block;
           max-width: 100%;
           height: auto;

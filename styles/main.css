@@ -141,6 +141,16 @@ body {
   width: 100%;
 }
 
+body a {
+  color: white;
+  text-decoration: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  text-transform: uppercase;
+}
+
 .cmp-1 {
   background: #1e1e1e;
 }
@@ -528,16 +538,6 @@ body {
   left: 0;
 }
 
-.cmp-2.flex_container a {
-  color: white;
-  text-decoration: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  text-transform: uppercase;
-}
-
 @media (min-width: 1601px) and (max-width: 1920px) {
   .cmp-2.flex_container {
     height: 39.93694167104572vw;
@@ -792,12 +792,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-height: 816px;
 }
 
 .cmp-3 .grid_container {
   max-width: 1188px;
-  max-height: 579.25px;
 }
 
 .cmp-3 .grid_container .gritem-1 h1 {
@@ -816,9 +814,9 @@ body {
 
 .cmp-3 .grid_container .gritem-1 .heading_decoration {
   position: relative;
-  top: 10px;
+  top: 0;
   left: 0;
-  margin: 0 auto;
+  margin: 10px auto 0;
   width: 110px;
 }
 
@@ -844,7 +842,8 @@ body {
   right: 0;
 }
 
-.cmp-3 .grid_container .mobile-img {
+.cmp-3 .grid_container .mobile-img,
+.cmp-3 .grid_container .mobile-list {
   display: none;
 }
 
@@ -1110,6 +1109,9 @@ body {
         align-self: center;
   }
   .cmp-3 .grid_container .gritem-2 img {
+    position: relative;
+    top: 10px;
+    left: 5px;
     display: inline-block;
     max-width: 100%;
     height: auto;
@@ -1345,12 +1347,15 @@ body {
     -webkit-box-flex: 0;
         -ms-flex: 0 51.1%;
             flex: 0 51.1%;
-    padding-right: 10px;
+    padding-right: 30px;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
   }
   .cmp-3 .grid_container .gritem-2 img {
+    position: relative;
+    top: 10px;
+    left: 5px;
     display: inline-block;
     max-width: 100%;
     height: auto;
@@ -1588,6 +1593,150 @@ body {
   }
   .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
     top: 35px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-3 {
+    height: 1146px;
+  }
+  .cmp-3 .grid_container {
+    width: 90.91797vw;
+    min-width: 718px;
+    height: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 30px;
+  }
+  .cmp-3 .grid_container .gritem-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 8.8%;
+            flex: 0 8.8%;
+    text-align: center;
+  }
+  .cmp-3 .grid_container .gritem-1 .heading_decoration {
+    font-size: 15px;
+  }
+  .cmp-3 .grid_container .gritem-1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28.88px;
+    font-weight: 600;
+    line-height: 32.43px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .cmp-3 .grid_container .image img {
+    display: none;
+  }
+  .cmp-3 .grid_container .image .mobile-img {
+    display: block;
+    background: black;
+    width: 100%;
+    height: 421px;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .cmp-3 .grid_container .image .mobile-img:hover {
+    background: #292929;
+  }
+  .cmp-3 .grid_container .gritem-3 {
+    display: none;
+  }
+  .cmp-3 .grid_container .mobile-list {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cmp-3 .grid_container .mobile-list hr {
+    position: relative;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+  }
+  .cmp-3 .grid_container .mobile-list h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    padding-top: 2px;
+  }
+  .cmp-3 .grid_container .mobile-list p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #6a6a6a;
+  }
+  .cmp-3 .grid_container .mobile-list p:nth-of-type(1) {
+    position: relative;
+    top: -15px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .mobile-list p[class^="check"] {
+    position: relative;
+    padding-left: 31px;
+    padding-right: 160px;
+  }
+  .cmp-3 .grid_container .mobile-list p[class^="check"]::before {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content: "\f00c";
+    color: white;
+    width: 16px;
+    height: 16px;
+    background: #3ab6b2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+  }
+  .cmp-3 .grid_container .mobile-list p.check-3 {
+    margin-bottom: 22px;
+  }
+  .cmp-3 .grid_container .mobile-list button {
+    width: 136px;
+    height: 42px;
+    background: #3ab6b2;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    margin-bottom: 3px;
+  }
+  .cmp-3 .grid_container .mobile-list button:hover {
+    background: #33a39f;
+  }
+  .cmp-3 .grid_container .mobile-list button:active {
+    background: #3ab6b2;
   }
 }
 /*# sourceMappingURL=main.css.map */

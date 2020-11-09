@@ -7,11 +7,9 @@ $icons: (
 
 .cmp-3 {
   @include flex;
-  max-height: 816px;
 
   .grid_container {
     max-width: 1188px;
-    max-height: 579.25px;
 
     .gritem-1 {
       h1 {
@@ -24,8 +22,8 @@ $icons: (
       }
 
       .heading_decoration {
-        @include position-relative($top: 10px);
-        margin: 0 auto;
+        @include position-relative;
+        margin: 10px auto 0;
         width: 110px;
 
         .fa-bullhorn {
@@ -52,7 +50,8 @@ $icons: (
       }
     }
 
-    .mobile-img {
+    .mobile-img,
+    .mobile-list {
       display: none;
     }
   }
