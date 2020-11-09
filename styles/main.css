@@ -843,7 +843,9 @@ body a {
 }
 
 .cmp-3 .grid_container .mobile-img,
-.cmp-3 .grid_container .mobile-list {
+.cmp-3 .grid_container .mobile-list,
+.cmp-3 .grid_container .tablet-list,
+.cmp-3 .grid_container .tablet-img {
   display: none;
 }
 
@@ -1651,6 +1653,157 @@ body a {
   .cmp-3 .grid_container .gritem-3 {
     display: none;
   }
+  .cmp-3 .grid_container .tablet-list {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 auto;
+            flex: 1 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .cmp-3 .grid_container .tablet-list hr {
+    position: relative;
+    top: -4px;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+  }
+  .cmp-3 .grid_container .tablet-list h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    padding-top: 2px;
+  }
+  .cmp-3 .grid_container .tablet-list p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #6a6a6a;
+  }
+  .cmp-3 .grid_container .tablet-list p:nth-of-type(1) {
+    position: relative;
+    top: -15px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .tablet-list p[class^="check"] {
+    position: relative;
+    padding-left: 31px;
+    padding-right: 160px;
+  }
+  .cmp-3 .grid_container .tablet-list p[class^="check"]::before {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    content: "\f00c";
+    color: white;
+    width: 16px;
+    height: 16px;
+    background: #3ab6b2;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+  }
+  .cmp-3 .grid_container .tablet-list p.check-3 {
+    margin-bottom: 22px;
+  }
+  .cmp-3 .grid_container .tablet-list button {
+    width: 136px;
+    height: 42px;
+    background: #3ab6b2;
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0.005em;
+    margin-bottom: 3px;
+  }
+  .cmp-3 .grid_container .tablet-list button:hover {
+    background: #33a39f;
+  }
+  .cmp-3 .grid_container .tablet-list button:active {
+    background: #3ab6b2;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-3 {
+    height: 800px;
+    min-width: 320px;
+  }
+  .cmp-3 .grid_container {
+    width: 87.5vw;
+    min-width: 280px;
+    height: 725px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    row-gap: 25px;
+  }
+  .cmp-3 .grid_container .gritem-1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 8.8%;
+            flex: 0 8.8%;
+    text-align: center;
+  }
+  .cmp-3 .grid_container .gritem-1 .heading_decoration {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 30.2px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .cmp-3 .grid_container .image img {
+    display: none;
+  }
+  .cmp-3 .grid_container .image .mobile-img {
+    position: relative;
+    top: 2px;
+    left: 0;
+    display: block;
+    background: black;
+    width: 100%;
+    height: 207px;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  .cmp-3 .grid_container .image .mobile-img:hover {
+    background: #292929;
+  }
+  .cmp-3 .grid_container .gritem-3 {
+    display: none;
+  }
   .cmp-3 .grid_container .mobile-list {
     -webkit-box-flex: 1;
         -ms-flex: 1 auto;
@@ -1668,14 +1821,17 @@ body a {
   }
   .cmp-3 .grid_container .mobile-list hr {
     position: relative;
-    top: -4px;
+    top: -20px;
     left: 0;
     width: 100%;
     border-top: 1px solid #e6e6e6;
   }
   .cmp-3 .grid_container .mobile-list h1 {
+    position: relative;
+    top: -7px;
+    left: 0;
     font-family: "Raleway", sans-serif;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: -0.02em;
@@ -1690,13 +1846,12 @@ body a {
   }
   .cmp-3 .grid_container .mobile-list p:nth-of-type(1) {
     position: relative;
-    top: -15px;
+    top: -30px;
     left: 0;
   }
   .cmp-3 .grid_container .mobile-list p[class^="check"] {
     position: relative;
     padding-left: 31px;
-    padding-right: 160px;
   }
   .cmp-3 .grid_container .mobile-list p[class^="check"]::before {
     position: absolute;
@@ -1716,8 +1871,18 @@ body a {
     text-align: center;
     line-height: 16px;
   }
+  .cmp-3 .grid_container .mobile-list p.check-1 {
+    position: relative;
+    top: -10px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .mobile-list p.check-2 {
+    position: relative;
+    top: -5px;
+    left: 0;
+  }
   .cmp-3 .grid_container .mobile-list p.check-3 {
-    margin-bottom: 22px;
+    margin-bottom: 28px;
   }
   .cmp-3 .grid_container .mobile-list button {
     width: 136px;
@@ -1730,7 +1895,7 @@ body a {
     font-weight: 700;
     line-height: 34px;
     letter-spacing: 0.005em;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
   }
   .cmp-3 .grid_container .mobile-list button:hover {
     background: #33a39f;
