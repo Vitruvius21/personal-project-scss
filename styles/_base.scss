@@ -26,7 +26,6 @@ $navbar-font: "Open Sans", sans-serif;
   width: $width;
   height: $height;
   background: $project-green;
-
   &::before {
     position: absolute;
     content: "";
@@ -37,11 +36,9 @@ $navbar-font: "Open Sans", sans-serif;
     width: $before-width;
     height: $before-height;
   }
-
   &:hover {
     background: $project-green-hover;
   }
-
   &:active {
     background: $project-green;
   }
@@ -56,6 +53,26 @@ $navbar-font: "Open Sans", sans-serif;
   line-height: $line-height;
 }
 
+@mixin center-absolute-element(
+  $top: 50%,
+  $left: 50%,
+  $tr-left: -50%,
+  $tr-top: -50%
+) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate($tr-left, $tr-top);
+}
+
+//@include background(#5500ff);
+@mixin background($color1) {
+  background-image: radial-gradient($color1 20%, transparent 20%),
+    radial-gradient($color1 20%, transparent 20%);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -64,5 +81,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   width: 100%;
-  height: 200vh;
 }

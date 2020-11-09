@@ -1,0 +1,129 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-3 {
+    height: 816px;
+
+    .grid_container {
+      width: 1090 / 1200 * 100 + vw;
+      max-width: 1090px;
+      height: 579.25 / 1200 * 100 + vw;
+      min-height: 580px;
+
+      display: flex;
+      flex-flow: row wrap;
+
+      .gritem-1 {
+        flex: 1 100%;
+        text-align: center;
+      }
+
+      .gritem-2 {
+        flex: 0 51.1%;
+        padding-right: 10px;
+        align-self: center;
+
+        img {
+          display: inline-block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .gritem-3 {
+        flex: 1 48.9%;
+
+        display: grid;
+        grid-template-columns: 53.2% auto;
+        grid-template-rows: 48% auto auto;
+
+        h1 {
+          @include font(31px, 600, 19px);
+          letter-spacing: -0.02em;
+          @include position-relative($top: 45px, $left: 0);
+        }
+
+        p {
+          @include font(13px, 400, 22px, $font-name: $navbar-font);
+          color: $paragraph_grey;
+          @include position-relative($top: 10px, $left: 69.05px);
+        }
+
+        h5 {
+          @include font(18px, 700, 19px);
+          letter-spacing: -0.02em;
+          @include position-relative($top: 0, $left: 68.3px);
+        }
+
+        h5,
+        p {
+          display: inline-block;
+        }
+
+        .minor_gritem-1 {
+          grid-column: span 2;
+
+          p {
+            @include font(14px, 400, 27px, $font-name: $navbar-font);
+            color: $paragraph_grey;
+            @include position-relative($top: 74px, $left: 0);
+          }
+        }
+
+        .minor_gritem-4,
+        .minor_gritem-5 {
+          h5 {
+            @include position-relative($top: 5px, $left: 68.3px);
+          }
+
+          p {
+            @include position-relative($top: 15px, $left: 68.3px);
+          }
+        }
+
+        @for $i from 2 through 5 {
+          .minor_gritem-#{$i} {
+            position: relative;
+
+            p {
+              width: 171 / 1200 * 100 + vw;
+
+              br {
+                display: none;
+              }
+            }
+          }
+        }
+
+        @each $index, $glyph in $icons {
+          .minor_gritem-#{$index}::after {
+            @include center-absolute-element($left: 0, $tr-left: 0);
+            display: inline-block;
+            font-family: $fa-font;
+            font-size: 27px;
+            content: $glyph;
+            color: $project-white;
+            width: 63 / 1200 * 100 + vw;
+            min-width: 30px;
+            height: 63 / 1200 * 100 + vw;
+            min-height: 30px;
+            background: $icon-background;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 63 / 1200 * 100 + vw;
+          }
+
+          @for $i from 2 through 3 {
+            .minor_gritem-#{$i}::after {
+              top: 30px;
+            }
+          }
+
+          @for $i from 4 through 5 {
+            .minor_gritem-#{$i}::after {
+              top: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

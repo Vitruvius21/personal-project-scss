@@ -1,0 +1,59 @@
+$icons: (
+  2: "\f013",
+  3: "\f041",
+  4: "\f004",
+  5: "\f044",
+);
+
+.cmp-3 {
+  @include flex;
+  max-height: 816px;
+
+  .grid_container {
+    max-width: 1188px;
+    max-height: 579.25px;
+
+    .gritem-1 {
+      h1 {
+        @include font(31px, 600, 34px);
+        @include position-relative($top: -2px);
+
+        span {
+          color: $project-green;
+        }
+      }
+
+      .heading_decoration {
+        @include position-relative($top: 10px);
+        margin: 0 auto;
+        width: 110px;
+
+        .fa-bullhorn {
+          transform: rotate(-25deg);
+        }
+
+        &::before,
+        &::after {
+          position: absolute;
+          content: "";
+          width: 37px;
+          height: 1.1px;
+          background: $decor-grey;
+          top: 50%;
+        }
+
+        &::before {
+          left: 0;
+        }
+
+        &::after {
+          right: 0;
+        }
+      }
+    }
+
+    .mobile-img {
+      display: none;
+    }
+  }
+}

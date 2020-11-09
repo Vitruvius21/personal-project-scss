@@ -1,0 +1,111 @@
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-3 {
+    height: 816px;
+
+    .grid_container {
+      width: 1188 / 1903 * 100 + vw;
+      min-width: 1090px;
+      display: grid;
+      height: 579.25px;
+      grid-template-columns: 51.1% auto;
+      grid-template-rows: 20% auto;
+
+      .gritem-1 {
+        grid-column: span 2;
+        text-align: center;
+      }
+
+      .gritem-2 {
+        grid-column: span 1;
+
+        img {
+          @include position-relative($top: 40px, $left: 5px);
+          display: block;
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .gritem-3 {
+        grid-column: span 1;
+        display: grid;
+        grid-template-columns: 53.2% auto;
+        grid-template-rows: 48% auto auto;
+
+        h1 {
+          @include font(31px, 600, 19px);
+          letter-spacing: -0.02em;
+          @include position-relative($top: 45px, $left: 0);
+        }
+
+        p {
+          @include font(13px, 400, 22px, $font-name: $navbar-font);
+          color: $paragraph_grey;
+          @include position-relative($top: 10px, $left: 92px);
+        }
+
+        h5 {
+          @include font(18px, 700, 19px);
+          letter-spacing: -0.02em;
+          @include position-relative($top: 0, $left: 91px);
+        }
+
+        .minor_gritem-1 {
+          grid-column: span 2;
+
+          p {
+            @include font(14px, 400, 27px, $font-name: $navbar-font);
+            color: $paragraph_grey;
+            @include position-relative($top: 74px, $left: 0);
+          }
+        }
+
+        .minor_gritem-4,
+        .minor_gritem-5 {
+          h5 {
+            @include position-relative($top: 5px, $left: 91px);
+          }
+
+          p {
+            @include position-relative($top: 15px, $left: 91px);
+          }
+        }
+
+        @for $i from 2 through 5 {
+          .minor_gritem-#{$i} {
+            position: relative;
+          }
+        }
+
+        @each $index, $glyph in $icons {
+          .minor_gritem-#{$index}::after {
+            @include center-absolute-element($left: 0, $tr-left: 0);
+            display: inline-block;
+            font-family: $fa-font;
+            font-size: 27px;
+            content: $glyph;
+            color: $project-white;
+            width: 63px;
+            height: 63px;
+            background: $icon-background;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 63px;
+          }
+
+          @for $i from 2 through 3 {
+            .minor_gritem-#{$i}::after {
+              top: 30px;
+            }
+          }
+
+          @for $i from 4 through 5 {
+            .minor_gritem-#{$i}::after {
+              top: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

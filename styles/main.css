@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html,
 body,
 div,
@@ -138,7 +139,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   width: 100%;
-  height: 200vh;
 }
 
 .cmp-1 {
@@ -320,6 +320,7 @@ body {
     left: 0;
   }
   .cmp-1 .flex_container .icon img {
+    display: block;
     max-width: 100%;
     height: auto;
   }
@@ -778,6 +779,815 @@ body {
   }
   .cmp-2.flex_container .arrows {
     display: none;
+  }
+}
+
+.cmp-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 816px;
+}
+
+.cmp-3 .grid_container {
+  max-width: 1188px;
+  max-height: 579.25px;
+}
+
+.cmp-3 .grid_container .gritem-1 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 34px;
+  position: relative;
+  top: -2px;
+  left: 0;
+}
+
+.cmp-3 .grid_container .gritem-1 h1 span {
+  color: #3ab6b2;
+}
+
+.cmp-3 .grid_container .gritem-1 .heading_decoration {
+  position: relative;
+  top: 10px;
+  left: 0;
+  margin: 0 auto;
+  width: 110px;
+}
+
+.cmp-3 .grid_container .gritem-1 .heading_decoration .fa-bullhorn {
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
+.cmp-3 .grid_container .gritem-1 .heading_decoration::before, .cmp-3 .grid_container .gritem-1 .heading_decoration::after {
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 1.1px;
+  background: #d3d3d3;
+  top: 50%;
+}
+
+.cmp-3 .grid_container .gritem-1 .heading_decoration::before {
+  left: 0;
+}
+
+.cmp-3 .grid_container .gritem-1 .heading_decoration::after {
+  right: 0;
+}
+
+.cmp-3 .grid_container .mobile-img {
+  display: none;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-3 {
+    height: 816px;
+  }
+  .cmp-3 .grid_container {
+    width: 62.42775vw;
+    min-width: 1090px;
+    display: -ms-grid;
+    display: grid;
+    height: 579.25px;
+    -ms-grid-columns: 51.1% auto;
+        grid-template-columns: 51.1% auto;
+    -ms-grid-rows: 20% auto;
+        grid-template-rows: 20% auto;
+  }
+  .cmp-3 .grid_container .gritem-1 {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .cmp-3 .grid_container .gritem-2 {
+    grid-column: span 1;
+  }
+  .cmp-3 .grid_container .gritem-2 img {
+    position: relative;
+    top: 40px;
+    left: 5px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .cmp-3 .grid_container .gritem-3 {
+    grid-column: span 1;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 53.2% auto;
+        grid-template-columns: 53.2% auto;
+    -ms-grid-rows: 48% auto auto;
+        grid-template-rows: 48% auto auto;
+  }
+  .cmp-3 .grid_container .gritem-3 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 45px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6a6a6a;
+    position: relative;
+    top: 10px;
+    left: 92px;
+  }
+  .cmp-3 .grid_container .gritem-3 h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 0;
+    left: 91px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 {
+    grid-column: span 2;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6a6a6a;
+    position: relative;
+    top: 74px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 h5,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 h5 {
+    position: relative;
+    top: 5px;
+    left: 91px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 p,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 p {
+    position: relative;
+    top: 15px;
+    left: 91px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-3 {
+    height: 816px;
+  }
+  .cmp-3 .grid_container {
+    width: 74.25vw;
+    min-width: 1090px;
+    max-width: 1090px;
+    height: 36.20312vw;
+    min-height: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .cmp-3 .grid_container .gritem-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+    text-align: center;
+  }
+  .cmp-3 .grid_container .gritem-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 51.1%;
+            flex: 0 51.1%;
+    padding-right: 10px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .cmp-3 .grid_container .gritem-2 img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  .cmp-3 .grid_container .gritem-3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 48.9%;
+            flex: 1 48.9%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 53.2% auto;
+        grid-template-columns: 53.2% auto;
+    -ms-grid-rows: 48% auto auto;
+        grid-template-rows: 48% auto auto;
+  }
+  .cmp-3 .grid_container .gritem-3 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 45px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6a6a6a;
+    position: relative;
+    top: 10px;
+    left: 5.75vw;
+  }
+  .cmp-3 .grid_container .gritem-3 h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 0;
+    left: 5.6875vw;
+  }
+  .cmp-3 .grid_container .gritem-3 h5,
+  .cmp-3 .grid_container .gritem-3 p {
+    display: inline-block;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 {
+    grid-column: span 2;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6a6a6a;
+    position: relative;
+    top: 74px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 h5,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 h5 {
+    position: relative;
+    top: 5px;
+    left: 5.6875vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 p,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 p {
+    position: relative;
+    top: 15px;
+    left: 5.6875vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 63px;
+    height: 63px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 63px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-3 {
+    height: 816px;
+  }
+  .cmp-3 .grid_container {
+    width: 90.83333vw;
+    max-width: 1090px;
+    height: 48.27083vw;
+    min-height: 580px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .cmp-3 .grid_container .gritem-1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 100%;
+            flex: 1 100%;
+    text-align: center;
+  }
+  .cmp-3 .grid_container .gritem-2 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 51.1%;
+            flex: 0 51.1%;
+    padding-right: 10px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .cmp-3 .grid_container .gritem-2 img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  .cmp-3 .grid_container .gritem-3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 48.9%;
+            flex: 1 48.9%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 53.2% auto;
+        grid-template-columns: 53.2% auto;
+    -ms-grid-rows: 48% auto auto;
+        grid-template-rows: 48% auto auto;
+  }
+  .cmp-3 .grid_container .gritem-3 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 45px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #6a6a6a;
+    position: relative;
+    top: 10px;
+    left: 69.05px;
+  }
+  .cmp-3 .grid_container .gritem-3 h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    position: relative;
+    top: 0;
+    left: 68.3px;
+  }
+  .cmp-3 .grid_container .gritem-3 h5,
+  .cmp-3 .grid_container .gritem-3 p {
+    display: inline-block;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 {
+    grid-column: span 2;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-1 p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #6a6a6a;
+    position: relative;
+    top: 74px;
+    left: 0;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 h5,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 h5 {
+    position: relative;
+    top: 5px;
+    left: 68.3px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 p,
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 p {
+    position: relative;
+    top: 15px;
+    left: 68.3px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2 p {
+    width: 14.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2 p br {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3 p {
+    width: 14.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3 p br {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 p {
+    width: 14.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4 p br {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 {
+    position: relative;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 p {
+    width: 14.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5 p br {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 5.25vw;
+    min-width: 30px;
+    height: 5.25vw;
+    min-height: 30px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 5.25vw;
+    min-width: 30px;
+    height: 5.25vw;
+    min-height: 30px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 5.25vw;
+    min-width: 30px;
+    height: 5.25vw;
+    min-height: 30px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    content: "";
+    color: white;
+    width: 5.25vw;
+    min-width: 30px;
+    height: 5.25vw;
+    min-height: 30px;
+    background: #3b3b3b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5.25vw;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-2::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-3::after {
+    top: 30px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-4::after {
+    top: 35px;
+  }
+  .cmp-3 .grid_container .gritem-3 .minor_gritem-5::after {
+    top: 35px;
   }
 }
 /*# sourceMappingURL=main.css.map */
