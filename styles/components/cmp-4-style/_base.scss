@@ -1,0 +1,72 @@
+.cmp-4 {
+  height: 783px;
+  background: $project-dark-grey;
+  text-align: center;
+  color: $project-white;
+
+  .flitem-1 {
+    h1 {
+      @include font(31px, 600, 34px);
+    }
+
+    .heading_decoration {
+      margin: 5px auto 0;
+      @include heading-decor;
+    }
+  }
+
+  .flitem-2,
+  .flitem-3,
+  .flitem-4 {
+    @include flex;
+    flex-flow: column nowrap;
+    padding: 0 73px;
+    cursor: pointer;
+
+    transition: all 0.3s linear;
+
+    &:hover {
+      background-color: $project-grey;
+    }
+
+    &:hover .icon-1,
+    &:hover .icon-2,
+    &:hover .icon-3 {
+      background-image: url(../../../images/cmp-4-images/svg/icon-small-border.svg),
+        url(../../../images/cmp-4-images/svg/service-icon-background-green.svg);
+      background-size: 100%, 100%;
+    }
+
+    .icon-1,
+    .icon-2,
+    .icon-3 {
+      width: 124.52px;
+      height: 144.37px;
+      background-repeat: no-repeat;
+      background-image: url(../../../images/cmp-4-images/svg/icon-big-border.svg),
+        url(../../../images/cmp-4-images/svg/service-icon-background-green.svg);
+      background-position: center;
+      background-size: 100%, 0%;
+      transition: all 0.3s linear;
+    }
+
+    .fa {
+      line-height: 144.37px;
+      font-size: 26px;
+    }
+
+    h3 {
+      @include font(20px, 700, 40px);
+      color: $project-green;
+      @include position-relative(35px, null);
+    }
+
+    p {
+      @include font(14px, 400, 22px, $navbar-font);
+      color: $project-white;
+      letter-spacing: 0.016em;
+
+      @include position-relative(39px, null);
+    }
+  }
+}

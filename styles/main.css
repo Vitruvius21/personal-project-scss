@@ -844,8 +844,7 @@ body a {
 
 .cmp-3 .grid_container .mobile-img,
 .cmp-3 .grid_container .mobile-list,
-.cmp-3 .grid_container .tablet-list,
-.cmp-3 .grid_container .tablet-img {
+.cmp-3 .grid_container .tablet-list {
   display: none;
 }
 
@@ -1902,6 +1901,259 @@ body a {
   }
   .cmp-3 .grid_container .mobile-list button:active {
     background: #3ab6b2;
+  }
+}
+
+.cmp-4 {
+  height: 783px;
+  background: #1e1e1e;
+  text-align: center;
+  color: white;
+}
+
+.cmp-4 .flitem-1 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.cmp-4 .flitem-1 .heading_decoration {
+  margin: 5px auto 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 110px;
+  text-align: center;
+}
+
+.cmp-4 .flitem-1 .heading_decoration::before, .cmp-4 .flitem-1 .heading_decoration::after {
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 1.1px;
+  background: #d3d3d3;
+  top: 50%;
+}
+
+.cmp-4 .flitem-1 .heading_decoration::before {
+  left: 0;
+}
+
+.cmp-4 .flitem-1 .heading_decoration::after {
+  right: 0;
+}
+
+.cmp-4 .flitem-2,
+.cmp-4 .flitem-3,
+.cmp-4 .flitem-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 0 73px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-4 .flitem-2:hover,
+.cmp-4 .flitem-3:hover,
+.cmp-4 .flitem-4:hover {
+  background-color: #292929;
+}
+
+.cmp-4 .flitem-2:hover .icon-1,
+.cmp-4 .flitem-2:hover .icon-2,
+.cmp-4 .flitem-2:hover .icon-3,
+.cmp-4 .flitem-3:hover .icon-1,
+.cmp-4 .flitem-3:hover .icon-2,
+.cmp-4 .flitem-3:hover .icon-3,
+.cmp-4 .flitem-4:hover .icon-1,
+.cmp-4 .flitem-4:hover .icon-2,
+.cmp-4 .flitem-4:hover .icon-3 {
+  background-image: url(../../../images/cmp-4-images/svg/icon-small-border.svg), url(../../../images/cmp-4-images/svg/service-icon-background-green.svg);
+  background-size: 100%, 100%;
+}
+
+.cmp-4 .flitem-2 .icon-1,
+.cmp-4 .flitem-2 .icon-2,
+.cmp-4 .flitem-2 .icon-3,
+.cmp-4 .flitem-3 .icon-1,
+.cmp-4 .flitem-3 .icon-2,
+.cmp-4 .flitem-3 .icon-3,
+.cmp-4 .flitem-4 .icon-1,
+.cmp-4 .flitem-4 .icon-2,
+.cmp-4 .flitem-4 .icon-3 {
+  width: 124.52px;
+  height: 144.37px;
+  background-repeat: no-repeat;
+  background-image: url(../../../images/cmp-4-images/svg/icon-big-border.svg), url(../../../images/cmp-4-images/svg/service-icon-background-green.svg);
+  background-position: center;
+  background-size: 100%, 0%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-4 .flitem-2 .fa,
+.cmp-4 .flitem-3 .fa,
+.cmp-4 .flitem-4 .fa {
+  line-height: 144.37px;
+  font-size: 26px;
+}
+
+.cmp-4 .flitem-2 h3,
+.cmp-4 .flitem-3 h3,
+.cmp-4 .flitem-4 h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #3ab6b2;
+  position: relative;
+  top: 35px;
+}
+
+.cmp-4 .flitem-2 p,
+.cmp-4 .flitem-3 p,
+.cmp-4 .flitem-4 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  letter-spacing: 0.016em;
+  position: relative;
+  top: 39px;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-4 {
+    height: 783px;
+    max-height: 783px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-4 .flex_container {
+    width: 1320px;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .cmp-4 .flex_container .flitem-1 {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+  .cmp-4 .flex_container .flitem-2,
+  .cmp-4 .flex_container .flitem-3,
+  .cmp-4 .flex_container .flitem-4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 30%;
+            flex: 1 30%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-4 {
+    height: 783px;
+    max-height: 783px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-4 .flex_container {
+    width: 1320px;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .cmp-4 .flex_container .flitem-1 {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+  .cmp-4 .flex_container .flitem-2,
+  .cmp-4 .flex_container .flitem-3,
+  .cmp-4 .flex_container .flitem-4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 30%;
+            flex: 1 30%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-4 {
+    height: 783px;
+    max-height: 783px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-4 .flex_container {
+    width: 1320px;
+    height: 500px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  .cmp-4 .flex_container .flitem-1 {
+    width: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+  }
+  .cmp-4 .flex_container .flitem-2,
+  .cmp-4 .flex_container .flitem-3,
+  .cmp-4 .flex_container .flitem-4 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 30%;
+            flex: 1 30%;
+    padding: 0 3.836048344718865vw;
   }
 }
 /*# sourceMappingURL=main.css.map */

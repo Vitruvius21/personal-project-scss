@@ -81,6 +81,30 @@ $navbar-font: "Open Sans", sans-serif;
   transform: translate($tr-left, $tr-top);
 }
 
+@mixin heading-decor {
+  @include position-relative;
+  width: 110px;
+  text-align: center;
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    width: 37px;
+    height: 1.1px;
+    background: $decor-grey;
+    top: 50%;
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+}
+
 //@include background(#5500ff);
 @mixin background($color1) {
   background-image: radial-gradient($color1 20%, transparent 20%),

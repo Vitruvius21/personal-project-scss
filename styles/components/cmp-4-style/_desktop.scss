@@ -1,0 +1,26 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-4 {
+    height: 783px;
+    max-height: 783px;
+    @include flex;
+
+    .flex_container {
+      width: 1320px;
+      height: 500px;
+      display: flex;
+      flex-flow: row wrap;
+
+      .flitem-1 {
+        width: 100%;
+        flex: 1 0 100%;
+      }
+
+      .flitem-2,
+      .flitem-3,
+      .flitem-4 {
+        flex: 1 30%;
+        padding: 0 3.836048344718865vw;
+      }
+    }
+  }
+}
