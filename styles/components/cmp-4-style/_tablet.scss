@@ -1,0 +1,53 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-4 {
+    height: 1287px;
+    @include flex;
+
+    .flex_container {
+      width: 295px;
+      height: 1144px;
+      display: flex;
+      flex-flow: column nowrap;
+      row-gap: 19px;
+
+      .flitem-1 {
+        width: 100%;
+        flex: 0 1 0;
+
+        h1 {
+          @include font(28.99px, 600, 32.36px);
+        }
+
+        .heading_decoration {
+          margin: 12px auto 0;
+        }
+      }
+
+      .flitem-2 {
+        flex: 1 1 0;
+
+        h3 {
+          @include position-relative(33px, null);
+        }
+
+        p {
+          @include position-relative(37px, null);
+        }
+      }
+      .flitem-3 {
+        flex: 1 1 0;
+      }
+      .flitem-4 {
+        flex: 1 1 0;
+
+        h3 {
+          @include position-relative(39px, null);
+        }
+
+        p {
+          @include position-relative(44px, null);
+        }
+      }
+    }
+  }
+}

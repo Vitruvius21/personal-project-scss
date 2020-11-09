@@ -1,5 +1,4 @@
 .cmp-4 {
-  height: 783px;
   background: $project-dark-grey;
   text-align: center;
   color: $project-white;
@@ -20,9 +19,8 @@
   .flitem-4 {
     @include flex;
     flex-flow: column nowrap;
-    padding: 0 73px;
-    cursor: pointer;
 
+    cursor: pointer;
     transition: all 0.3s linear;
 
     &:hover {
@@ -65,7 +63,6 @@
       @include font(14px, 400, 22px, $navbar-font);
       color: $project-white;
       letter-spacing: 0.016em;
-
       @include position-relative(39px, null);
     }
   }

@@ -1,0 +1,92 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-4 {
+    height: 1107.82px;
+    @include flex;
+
+    .flex_container {
+      width: 287px;
+      height: 1036px;
+      display: flex;
+      flex-flow: column wrap;
+
+      .flitem-1 {
+        width: 100%;
+        flex: 0 0 0;
+
+        h1 {
+          @include font(27px, 600, 30.2px);
+        }
+
+        .heading_decoration {
+          margin: 12px auto 0;
+        }
+      }
+
+      .flitem-2,
+      .flitem-3,
+      .flitem-4 {
+        h3 {
+          @include font(19px, 700, 40px);
+          letter-spacing: 0.016em;
+        }
+        p {
+          @include font(13px, 400, 22px, $navbar-font);
+        }
+
+        .icon-1,
+        .icon-2,
+        .icon-3 {
+          width: 118.18px;
+          height: 137.29px;
+        }
+
+        .fa {
+          line-height: 137.29px;
+          font-size: 25px;
+        }
+
+        .icon-1 {
+          @include position-relative(4px, null);
+        }
+
+        .icon-3 {
+          @include position-relative(2px, null);
+        }
+      }
+
+      .flitem-2 {
+        flex: 0 1 340px;
+        h3 {
+          @include position-relative(36px, null);
+        }
+
+        p {
+          @include position-relative(39px, null);
+        }
+      }
+
+      .flitem-3 {
+        flex: 0 0 308px;
+
+        h3 {
+          @include position-relative(32px, null);
+        }
+
+        p {
+          @include position-relative(36px, null);
+        }
+      }
+
+      .flitem-4 {
+        flex: 1 auto;
+        h3 {
+          @include position-relative(35px, null);
+        }
+
+        p {
+          @include position-relative(40px, null);
+        }
+      }
+    }
+  }
+}
