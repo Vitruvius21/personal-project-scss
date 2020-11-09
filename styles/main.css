@@ -398,7 +398,10 @@ body a {
   width: 100%;
   text-align: center;
   color: white;
-  background: #292929;
+  background-image: url(../../../images/cmp-2-images/nature.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .cmp-2.flex_container .inner_flex_container {
@@ -525,11 +528,11 @@ body a {
 }
 
 .cmp-2.flex_container .arrows:hover {
-  background: #333333;
+  background: rgba(51, 51, 51, 0.4);
 }
 
 .cmp-2.flex_container .arrows:active {
-  background: #2b2b2b;
+  background: rgba(43, 43, 43, 0.4);
 }
 
 .cmp-2.flex_container .arrows .fa {
