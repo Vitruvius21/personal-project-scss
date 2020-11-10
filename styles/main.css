@@ -3831,6 +3831,11 @@ body a {
   font-size: 32px;
 }
 
+.cmp-6 .grid_container p {
+  letter-spacing: 0.04em;
+  color: #606060;
+}
+
 .cmp-6 .grid_container .gritem-5.minor_grid_container {
   grid-column: 1 / -1;
   display: -ms-grid;
@@ -3941,8 +3946,6 @@ body a {
     position: relative;
     top: 2px;
     left: 0;
-    letter-spacing: 0.04em;
-    color: #606060;
   }
   .cmp-6 .grid_container .gritem-4 > * {
     position: relative;
@@ -3998,8 +4001,6 @@ body a {
     position: relative;
     top: 2px;
     left: 0;
-    letter-spacing: 0.04em;
-    color: #606060;
   }
   .cmp-6 .grid_container .gritem-4 > * {
     position: relative;
@@ -4055,8 +4056,6 @@ body a {
     position: relative;
     top: 2px;
     left: 0;
-    letter-spacing: 0.04em;
-    color: #606060;
   }
   .cmp-6 .grid_container .gritem-4 > * {
     position: relative;
@@ -4070,10 +4069,16 @@ body a {
     height: 774px;
   }
   .cmp-6 .grid_container {
-    width: 719px;
+    width: 93.61979vw;
     height: 597px;
     -ms-grid-rows: 12.5% 31.7% auto;
         grid-template-rows: 12.5% 31.7% auto;
+  }
+  .cmp-6 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
   }
   .cmp-6 .grid_container .gritem-1 h1 {
     font-family: "Raleway", sans-serif;
@@ -4106,41 +4111,35 @@ body a {
   .cmp-6 .grid_container .gritem-1 .heading_decoration::after {
     right: 0;
   }
-  .cmp-6 .grid_container .gritem-2 {
-    position: relative;
-    top: 0;
-    left: -50px;
-  }
-  .cmp-6 .grid_container .gritem-4 {
-    position: relative;
-    top: 0;
-    left: 53px;
-  }
   .cmp-6 .grid_container .gritem-2 .fa {
     position: relative;
     top: -10px;
-    left: 0;
+    left: -50px;
+  }
+  .cmp-6 .grid_container .gritem-2 p {
+    position: relative;
+    top: 10px;
+    left: -50px;
   }
   .cmp-6 .grid_container .gritem-3 .fa {
     position: relative;
     top: -10px;
     left: 0;
   }
-  .cmp-6 .grid_container .gritem-4 .fa {
-    position: relative;
-    top: -10px;
-    left: 0;
-  }
-  .cmp-6 p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
+  .cmp-6 .grid_container .gritem-3 p {
     position: relative;
     top: 10px;
     left: 0;
-    letter-spacing: 0.04em;
-    color: #606060;
+  }
+  .cmp-6 .grid_container .gritem-4 .fa {
+    position: relative;
+    top: -10px;
+    left: 53px;
+  }
+  .cmp-6 .grid_container .gritem-4 p {
+    position: relative;
+    top: 10px;
+    left: 53px;
   }
 }
 /*# sourceMappingURL=main.css.map */

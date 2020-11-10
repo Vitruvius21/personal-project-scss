@@ -3,9 +3,13 @@
     height: 774px;
 
     .grid_container {
-      width: 719px;
+      width: 719 / 768 * 100 + vw;
       height: 597px;
       grid-template-rows: 12.5% 31.7% auto;
+
+      p {
+        @include font(15px, 500, 24px);
+      }
 
       .gritem-1 {
         h1 {
@@ -22,26 +26,29 @@
       }
 
       .gritem-2 {
-        @include position-relative(0, -50px);
-      }
-      .gritem-4 {
-        @include position-relative(0, 53px);
-      }
-
-      @for $i from 2 through 4 {
-        .gritem-#{$i} {
-          .fa {
-            @include position-relative(-10px);
-          }
+        .fa {
+          @include position-relative(-10px, -50px);
+        }
+        p {
+          @include position-relative(10px, -50px);
         }
       }
-    }
-
-    p {
-      @include font(15px, 500, 24px);
-      @include position-relative(10px);
-      letter-spacing: 0.04em;
-      color: $contact-dark-grey;
+      .gritem-3 {
+        .fa {
+          @include position-relative(-10px, 0);
+        }
+        p {
+          @include position-relative(10px, 0);
+        }
+      }
+      .gritem-4 {
+        .fa {
+          @include position-relative(-10px, 53px);
+        }
+        p {
+          @include position-relative(10px, 53px);
+        }
+      }
     }
   }
 }
