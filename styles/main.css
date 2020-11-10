@@ -3847,14 +3847,6 @@ body a {
   gap: 15px 15px;
 }
 
-.cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-3 {
-  grid-column: span 2;
-}
-
-.cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-4 {
-  grid-column: span 2;
-}
-
 .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-5 {
   width: 160px;
   height: 42px;
@@ -3952,6 +3944,12 @@ body a {
     top: 2px;
     left: -15px;
   }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-3 {
+    grid-column: span 2;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-4 {
+    grid-column: span 2;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) {
@@ -4007,6 +4005,12 @@ body a {
     top: 2px;
     left: -15px;
   }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-3 {
+    grid-column: span 2;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-4 {
+    grid-column: span 2;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
@@ -4061,6 +4065,12 @@ body a {
     position: relative;
     top: 2px;
     left: -15px;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-3 {
+    grid-column: span 2;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-4 {
+    grid-column: span 2;
   }
 }
 
@@ -4140,6 +4150,103 @@ body a {
     position: relative;
     top: 10px;
     left: 53px;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-3 {
+    grid-column: span 2;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container .minor_gritem-4 {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-6 {
+    height: 957px;
+  }
+  .cmp-6 .grid_container {
+    position: relative;
+    top: 2px;
+    left: 0;
+    width: 87.5vw;
+    height: 874.08px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 8.5% 145px 145px 140px auto;
+        grid-template-rows: 8.5% 145px 145px 140px auto;
+  }
+  .cmp-6 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .cmp-6 .grid_container .gritem-1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29.98px;
+    color: #323232;
+  }
+  .cmp-6 .grid_container .gritem-1 .heading_decoration {
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 110px;
+    text-align: center;
+    font-size: 20px;
+    top: 10px;
+  }
+  .cmp-6 .grid_container .gritem-1 .heading_decoration::before, .cmp-6 .grid_container .gritem-1 .heading_decoration::after {
+    position: absolute;
+    content: "";
+    width: 37px;
+    height: 1.1px;
+    background: #d3d3d3;
+    top: 50%;
+  }
+  .cmp-6 .grid_container .gritem-1 .heading_decoration::before {
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-1 .heading_decoration::after {
+    right: 0;
+  }
+  .cmp-6 .grid_container .gritem-2 .fa {
+    position: relative;
+    top: -5px;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-2 p {
+    position: relative;
+    top: 15px;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-3 .fa {
+    position: relative;
+    top: -20px;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-3 p {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-4 .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-4 p {
+    position: relative;
+    top: -6px;
+    left: 0;
+  }
+  .cmp-6 .grid_container .gritem-5.minor_grid_container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 46px 46px 46px 141px 42px;
+        grid-template-rows: 46px 46px 46px 141px 42px;
+    gap: 10.8px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */

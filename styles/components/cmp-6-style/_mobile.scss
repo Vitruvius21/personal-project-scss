@@ -1,2 +1,62 @@
 @media (min-width: 320px) and (max-width: 767px) {
+  .cmp-6 {
+    height: 957px;
+
+    .grid_container {
+      @include position-relative(2px);
+      width: 280 / 320 * 100 + vw;
+      height: 874.08px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 8.5% 145px 145px 140px auto;
+
+      p {
+        @include font(15px, 500, 24px);
+      }
+
+      .gritem-1 {
+        h1 {
+          @include font(27px, 600, 29.98px);
+          color: $heading_grey;
+        }
+
+        .heading_decoration {
+          margin: 0 auto;
+          @include heading-decor;
+          font-size: 20px;
+          top: 10px;
+        }
+      }
+
+      .gritem-2 {
+        .fa {
+          @include position-relative(-5px);
+        }
+        p {
+          @include position-relative(15px);
+        }
+      }
+      .gritem-3 {
+        .fa {
+          @include position-relative(-20px, 0);
+        }
+        p {
+          @include position-relative(0, 0);
+        }
+      }
+      .gritem-4 {
+        .fa {
+          @include position-relative(-25px);
+        }
+        p {
+          @include position-relative(-6px);
+        }
+      }
+
+      .gritem-5.minor_grid_container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 46px 46px 46px 141px 42px;
+        gap: 10.8px 0;
+      }
+    }
+  }
 }

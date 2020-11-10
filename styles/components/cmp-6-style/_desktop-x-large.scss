@@ -27,6 +27,14 @@
       .gritem-4 > * {
         @include position-relative(2px, -15px);
       }
+
+      .gritem-5.minor_grid_container {
+        @for $i from 3 through 4 {
+          .minor_gritem-#{$i} {
+            grid-column: span 2;
+          }
+        }
+      }
     }
   }
 }

@@ -41,12 +41,6 @@
       grid-template-rows: 46px 46px 171px 42px;
       gap: 15px 15px;
 
-      @for $i from 3 through 4 {
-        .minor_gritem-#{$i} {
-          grid-column: span 2;
-        }
-      }
-
       .minor_gritem-5 {
         @include button(160px, 42px);
         color: $project-white;
