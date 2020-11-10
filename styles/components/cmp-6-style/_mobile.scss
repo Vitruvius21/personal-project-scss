@@ -9,10 +9,6 @@
       grid-template-columns: 1fr;
       grid-template-rows: 8.5% 145px 145px 140px auto;
 
-      p {
-        @include font(15px, 500, 24px);
-      }
-
       .gritem-1 {
         h1 {
           @include font(27px, 600, 29.98px);

@@ -29,6 +29,7 @@
     }
 
     p {
+      @include font(15px, 500, 24px);
       letter-spacing: 0.04em;
       color: $contact-dark-grey;
     }

@@ -7,10 +7,6 @@
       height: 597px;
       grid-template-rows: 12.5% 31.7% auto;
 
-      p {
-        @include font(15px, 500, 24px);
-      }
-
       .gritem-1 {
         h1 {
           @include font(29px, 600, 32.38px);

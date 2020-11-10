@@ -3832,6 +3832,10 @@ body a {
 }
 
 .cmp-6 .grid_container p {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
   letter-spacing: 0.04em;
   color: #606060;
 }
@@ -3931,10 +3935,6 @@ body a {
     right: 0;
   }
   .cmp-6 .grid_container p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
     position: relative;
     top: 2px;
     left: 0;
@@ -3992,10 +3992,6 @@ body a {
     right: 0;
   }
   .cmp-6 .grid_container p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
     position: relative;
     top: 2px;
     left: 0;
@@ -4053,10 +4049,6 @@ body a {
     right: 0;
   }
   .cmp-6 .grid_container p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
     position: relative;
     top: 2px;
     left: 0;
@@ -4083,12 +4075,6 @@ body a {
     height: 597px;
     -ms-grid-rows: 12.5% 31.7% auto;
         grid-template-rows: 12.5% 31.7% auto;
-  }
-  .cmp-6 .grid_container p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
   }
   .cmp-6 .grid_container .gritem-1 h1 {
     font-family: "Raleway", sans-serif;
@@ -4173,12 +4159,6 @@ body a {
         grid-template-columns: 1fr;
     -ms-grid-rows: 8.5% 145px 145px 140px auto;
         grid-template-rows: 8.5% 145px 145px 140px auto;
-  }
-  .cmp-6 .grid_container p {
-    font-family: "Raleway", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    line-height: 24px;
   }
   .cmp-6 .grid_container .gritem-1 h1 {
     font-family: "Raleway", sans-serif;

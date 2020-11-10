@@ -20,7 +20,6 @@
       }
 
       p {
-        @include font(15px, 500, 24px);
         @include position-relative(2px);
       }
 
