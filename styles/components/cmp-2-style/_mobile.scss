@@ -21,7 +21,8 @@
 
       p {
         @include font(9px, 300, 10.8px);
-        @include position-relative($top: -2px, $left: -2px);
+        @include position-relative($top: -3px, $left: -2px);
+        letter-spacing: -0.0052em;
         span {
           display: none;
         }

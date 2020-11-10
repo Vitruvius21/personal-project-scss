@@ -732,8 +732,9 @@ body a {
     font-weight: 300;
     line-height: 10.8px;
     position: relative;
-    top: -2px;
+    top: -3px;
     left: -2px;
+    letter-spacing: -0.0052em;
   }
   .cmp-2.flex_container .inner_flex_container p span {
     display: none;
