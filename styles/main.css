@@ -3299,6 +3299,147 @@ body a {
   }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-5 .grid_container {
+    width: 93.48958vw;
+    height: 670px;
+    text-align: center;
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
+    -ms-grid-rows: 25% auto auto;
+        grid-template-rows: 25% auto auto;
+    gap: 21px;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -15px;
+    left: 0;
+    width: 37px;
+    height: 37px;
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa-link {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-2:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-3:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-4:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-5:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-6:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-7:hover .gritem_bottom_overlay {
+    height: 25%;
+  }
+  .cmp-5 .grid_container .gritem-1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 28.99px;
+    font-weight: 600;
+    line-height: 32.36px;
+    position: relative;
+    top: 12.5px;
+    left: 0;
+  }
+  .cmp-5 .grid_container .gritem-1 .heading_decoration {
+    top: 25.5px;
+  }
+  .cmp-5 .grid_container .gritem-8 {
+    display: none;
+  }
+  .cmp-5 .grid_container h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 11.99px;
+    font-weight: 600;
+    line-height: 21.68px;
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 0;
+  }
+  .cmp-5 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 9.99px;
+    font-weight: 600;
+    line-height: 21.68px;
+    font-style: italic;
+    color: #3ab6b2;
+  }
+}
+
 .cmp-6 {
   background: purple;
   width: 100%;

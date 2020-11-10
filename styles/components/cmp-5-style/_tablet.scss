@@ -1,2 +1,65 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-5 {
+    @include flex;
+
+    .grid_container {
+      width: 718 / 768 * 100 + vw;
+      height: 670px;
+      text-align: center;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: 25% auto auto;
+      gap: 21px;
+
+      @for $i from 2 through 7 {
+        .gritem-#{$i} {
+          .gritem_overlay_icons {
+            .fa {
+              @include position-relative(-15px);
+              width: 37px;
+              height: 37px;
+            }
+
+            .fa-link {
+              transform: rotate(90deg);
+            }
+          }
+        }
+      }
+
+      @for $i from 2 through 7 {
+        .gritem-#{$i}:hover {
+          .gritem_bottom_overlay {
+            height: 25%;
+          }
+        }
+      }
+
+      .gritem-1 {
+        h1 {
+          @include font(28.99px, 600, 32.36px);
+          @include position-relative(12.5px);
+        }
+
+        .heading_decoration {
+          top: 25.5px;
+        }
+      }
+
+      .gritem-8 {
+        display: none;
+      }
+
+      h6 {
+        @include font(11.99px, 600, 21.68px);
+        color: $project-white;
+        @include position-relative(2px);
+      }
+
+      p {
+        @include font(9.99px, 600, 21.68px);
+        font-style: italic;
+        color: $project-green;
+      }
+    }
+  }
 }
