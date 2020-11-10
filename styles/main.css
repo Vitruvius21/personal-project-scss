@@ -845,7 +845,6 @@ body a {
   right: 0;
 }
 
-.cmp-3 .grid_container .mobile-img,
 .cmp-3 .grid_container .mobile-list,
 .cmp-3 .grid_container .tablet-list {
   display: none;
@@ -873,7 +872,31 @@ body a {
   .cmp-3 .grid_container .gritem-2 {
     grid-column: span 1;
   }
-  .cmp-3 .grid_container .gritem-2 img {
+  .cmp-3 .grid_container .gritem-2 .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image {
+    position: absolute;
+    width: 468.03px;
+    height: 263.03px;
+    background: url(../../../images/cmp-3-images/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    top: 61px;
+    left: 26px;
+    overflow-y: scroll;
+    z-index: 1;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image .expand {
+    height: 1500px;
+    width: 100%;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image::-webkit-scrollbar {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container img {
     position: relative;
     top: 40px;
     left: 5px;
@@ -1112,7 +1135,31 @@ body a {
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .cmp-3 .grid_container .gritem-2 img {
+  .cmp-3 .grid_container .gritem-2 .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image {
+    position: absolute;
+    width: 468.03px;
+    height: 263.03px;
+    background: url(../../../images/cmp-3-images/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    top: 31px;
+    left: 26px;
+    overflow-y: scroll;
+    z-index: 1;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image .expand {
+    height: 1500px;
+    width: 100%;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image::-webkit-scrollbar {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container img {
     position: relative;
     top: 10px;
     left: 5px;
@@ -1356,7 +1403,31 @@ body a {
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .cmp-3 .grid_container .gritem-2 img {
+  .cmp-3 .grid_container .gritem-2 .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image {
+    position: absolute;
+    width: 92.1%;
+    height: 66%;
+    background: url(../../../images/cmp-3-images/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    top: 29px;
+    left: 24.4px;
+    overflow-y: scroll;
+    z-index: 1;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image .expand {
+    height: 1500px;
+    width: 100%;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container .bg-image::-webkit-scrollbar {
+    display: none;
+  }
+  .cmp-3 .grid_container .gritem-2 .image-container img {
     position: relative;
     top: 10px;
     left: 5px;
@@ -1627,6 +1698,9 @@ body a {
     text-align: center;
   }
   .cmp-3 .grid_container .gritem-1 .heading_decoration {
+    position: relative;
+    top: 4px;
+    left: 0;
     font-size: 15px;
   }
   .cmp-3 .grid_container .gritem-1 h1 {
@@ -1638,19 +1712,33 @@ body a {
     top: 0;
     left: 0;
   }
-  .cmp-3 .grid_container .image img {
-    display: none;
-  }
-  .cmp-3 .grid_container .image .mobile-img {
-    display: block;
-    background: black;
+  .cmp-3 .grid_container .image .image-container {
+    position: relative;
     width: 100%;
     height: 421px;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
-  .cmp-3 .grid_container .image .mobile-img:hover {
-    background: #292929;
+  .cmp-3 .grid_container .image .image-container .bg-image {
+    position: absolute;
+    width: 100%;
+    height: 421px;
+    background: url(../../../images/cmp-3-images/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+    z-index: 1;
+  }
+  .cmp-3 .grid_container .image .image-container .bg-image .expand {
+    height: 300vw;
+    width: 100%;
+  }
+  .cmp-3 .grid_container .image .image-container .bg-image::-webkit-scrollbar {
+    display: none;
+  }
+  .cmp-3 .grid_container .image .image-container img {
+    display: none;
   }
   .cmp-3 .grid_container .gritem-3 {
     display: none;
@@ -1786,22 +1874,35 @@ body a {
     top: 0;
     left: 0;
   }
-  .cmp-3 .grid_container .image img {
-    display: none;
-  }
-  .cmp-3 .grid_container .image .mobile-img {
+  .cmp-3 .grid_container .image .image-container {
     position: relative;
     top: 2px;
     left: 0;
-    display: block;
-    background: black;
     width: 100%;
     height: 207px;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
-  .cmp-3 .grid_container .image .mobile-img:hover {
-    background: #292929;
+  .cmp-3 .grid_container .image .image-container .bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../../images/cmp-3-images/desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    top: 0px;
+    left: 0px;
+    overflow-y: scroll;
+    z-index: 1;
+  }
+  .cmp-3 .grid_container .image .image-container .bg-image .expand {
+    height: 300vw;
+    width: 100%;
+  }
+  .cmp-3 .grid_container .image .image-container .bg-image::-webkit-scrollbar {
+    display: none;
+  }
+  .cmp-3 .grid_container .image .image-container img {
+    display: none;
   }
   .cmp-3 .grid_container .gritem-3 {
     display: none;

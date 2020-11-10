@@ -21,11 +21,39 @@
         padding-right: 30px;
         align-self: center;
 
-        img {
-          @include position-relative($top: 10px, $left: 5px);
+        .image-container {
+          position: relative;
           display: inline-block;
-          max-width: 100%;
-          height: auto;
+
+          .bg-image {
+            position: absolute;
+            width: 92.1%;
+            height: 66%;
+            background: url(../../../images/cmp-3-images/desktop.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: local;
+            top: 29px;
+            left: 24.4px;
+            overflow-y: scroll;
+            z-index: 1;
+
+            .expand {
+              height: 1500px;
+              width: 100%;
+            }
+
+            &::-webkit-scrollbar {
+              display: none;
+            }
+          }
+
+          img {
+            @include position-relative($top: 10px, $left: 5px);
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+          }
         }
       }
 

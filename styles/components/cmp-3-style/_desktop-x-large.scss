@@ -18,11 +18,39 @@
       .gritem-2 {
         grid-column: span 1;
 
-        img {
-          @include position-relative($top: 40px, $left: 5px);
-          display: block;
-          max-width: 100%;
-          height: auto;
+        .image-container {
+          position: relative;
+          display: inline-block;
+
+          .bg-image {
+            position: absolute;
+            width: 468.03px;
+            height: 263.03px;
+            background: url(../../../images/cmp-3-images/desktop.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: local;
+            top: 61px;
+            left: 26px;
+            overflow-y: scroll;
+            z-index: 1;
+
+            .expand {
+              height: 1500px;
+              width: 100%;
+            }
+
+            &::-webkit-scrollbar {
+              display: none;
+            }
+          }
+
+          img {
+            @include position-relative($top: 40px, $left: 5px);
+            display: block;
+            max-width: 100%;
+            height: auto;
+          }
         }
       }
 
