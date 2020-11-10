@@ -1,11 +1,11 @@
 $background-imgs: (
-  "2": url(../../../images/cmp-5-images/img-1.jpg),
-  "3": url(../../../images/cmp-5-images/img-2.jpg),
-  "4": url(../../../images/cmp-5-images/img-3.jpg),
-  "5": url(../../../images/cmp-5-images/img-4.jpg),
-  "6": url(../../../images/cmp-5-images/img-5.jpg),
-  "7": url(../../../images/cmp-5-images/img-6.jpg),
-  "8": url(../../../images/cmp-5-images/img-7.jpg),
+  "2": url(../images/cmp-5-images/img-1.jpg),
+  "3": url(../images/cmp-5-images/img-2.jpg),
+  "4": url(../images/cmp-5-images/img-3.jpg),
+  "5": url(../images/cmp-5-images/img-4.jpg),
+  "6": url(../images/cmp-5-images/img-5.jpg),
+  "7": url(../images/cmp-5-images/img-6.jpg),
+  "8": url(../images/cmp-5-images/img-7.jpg),
 );
 
 .cmp-5 {
@@ -60,6 +60,7 @@ $background-imgs: (
 
           .fa {
             @include flex;
+            font-size: 20px;
             color: $project-white;
             border: 2px solid $project-green;
             border-radius: 50%;
@@ -75,6 +76,10 @@ $background-imgs: (
             &:active {
               background: $project-green-hover;
             }
+          }
+
+          .fa-link {
+            transform: rotate(90deg);
           }
         }
 
@@ -94,13 +99,13 @@ $background-imgs: (
 
       .gritem-#{$index}:hover {
         .gritem_overlay_icons {
-          background: hsla(0, 0%, 0%, 0.4);
+          background: $dark-transp-hover;
           visibility: visible;
           opacity: 1;
         }
 
         .gritem_bottom_overlay {
-          background: hsla(0, 0%, 0%, 0.7);
+          background: $darker-transp-hover;
           height: 20%;
         }
       }

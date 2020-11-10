@@ -17,12 +17,9 @@
 
             .fa {
               @include position-relative(-15px);
+              font-size: 17px;
               width: 37px;
               height: 37px;
-            }
-
-            .fa-link {
-              transform: rotate(90deg);
             }
           }
         }

@@ -3,7 +3,7 @@
   width: 100%;
   text-align: center;
   color: $project-white;
-  background-image: url(../../../images/cmp-2-images/nature.jpg);
+  background-image: url(../images/cmp-2-images/nature.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,11 +56,11 @@
     user-select: none;
 
     &:hover {
-      background: hsla(0, 0%, 20%, 0.4);
+      background: $dark-hover;
     }
 
     &:active {
-      background: hsla(0, 0%, 17%, 0.4);
+      background: $dark-active;
     }
 
     .fa {

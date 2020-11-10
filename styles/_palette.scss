@@ -1,8 +1,8 @@
 $project-green: #3ab6b2;
 $project-green-hover: #33a39f;
 $project-white: white;
-$project-black: black; // cmp5-img-background
-$project-grey: #292929; // cmp2-cmp5_hover-background
+$project-black: black;
+$project-grey: #292929; // cmp4_hover-background
 $project-dark-grey: #1e1e1e; // cmp1-cmp4-background
 $project-darker-grey: #111111; // footer background
 
@@ -10,5 +10,10 @@ $heading_grey: #323232; // cmp3 cmp5
 $paragraph_grey: #6a6a6a; // cmp3
 $icon-background: #3b3b3b; // cmp3
 $line-break-color: #e6e6e6; // cmp3
+
+$dark-hover: hsla(0, 0%, 20%, 0.4); // cmp2 arrows
+$dark-active: hsla(0, 0%, 17%, 0.4); // cmp2 arrows
+$dark-transp-hover: hsla(0, 0%, 0%, 0.4); // cmp5
+$darker-transp-hover: hsla(0, 0%, 0%, 0.7); // cmp5
 
 $decor-grey: #d3d3d3; // heading decor line color
