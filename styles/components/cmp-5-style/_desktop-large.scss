@@ -1,0 +1,27 @@
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-5 {
+    .grid_container {
+      height: 1017px;
+      text-align: center;
+      grid-template-columns: 19.5% 19.67% 20.17% 19.8% auto;
+      grid-template-rows: 24% auto auto;
+      gap: 7px;
+
+      .colspan-2 {
+        grid-column: span 2;
+      }
+
+      h6 {
+        @include font(16.98px, 600, 28.96px);
+        color: $project-white;
+        @include position-relative(2px);
+      }
+
+      p {
+        @include font(12.99px, 600, 28.96px);
+        font-style: italic;
+        color: $project-green;
+      }
+    }
+  }
+}

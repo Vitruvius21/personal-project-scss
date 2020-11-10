@@ -2460,4 +2460,848 @@ body a {
     top: 40px;
   }
 }
+
+.cmp-5 .grid_container {
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+.cmp-5 .grid_container .gritem-1 {
+  grid-column: 1 / -1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+.cmp-5 .grid_container .gritem-1 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 31px;
+  font-weight: 600;
+  line-height: 34px;
+  position: relative;
+  top: 12px;
+  left: 0;
+}
+
+.cmp-5 .grid_container .gritem-1 .heading_decoration {
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 110px;
+  text-align: center;
+  top: 22px;
+}
+
+.cmp-5 .grid_container .gritem-1 .heading_decoration::before, .cmp-5 .grid_container .gritem-1 .heading_decoration::after {
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 1.1px;
+  background: #d3d3d3;
+  top: 50%;
+}
+
+.cmp-5 .grid_container .gritem-1 .heading_decoration::before {
+  left: 0;
+}
+
+.cmp-5 .grid_container .gritem-1 .heading_decoration::after {
+  right: 0;
+}
+
+.cmp-5 .grid_container .gritem-2 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-2:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-2:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-3 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-3 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-3 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-3:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-3:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-4 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-4:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-4:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-5 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-5 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-5 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-5:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-5:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-6 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-6:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-6:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-7 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-7 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-7 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-7:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-7:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+.cmp-5 .grid_container .gritem-8 {
+  position: relative;
+  background-image: url(../../../images/cmp-5-images/img-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_overlay_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  opacity: 0;
+  visibility: hidden;
+  gap: 11px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_overlay_icons .fa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  border: 2px solid #3ab6b2;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_overlay_icons .fa:hover {
+  background: #3ab6b2;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_overlay_icons .fa:active {
+  background: #33a39f;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_bottom_overlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
+.cmp-5 .grid_container .gritem-8:hover .gritem_overlay_icons {
+  background: rgba(0, 0, 0, 0.4);
+  visibility: visible;
+  opacity: 1;
+}
+
+.cmp-5 .grid_container .gritem-8:hover .gritem_bottom_overlay {
+  background: rgba(0, 0, 0, 0.7);
+  height: 20%;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-5 .grid_container {
+    height: 1017px;
+    text-align: center;
+    -ms-grid-columns: 19.5% 19.67% 20.17% 19.8% auto;
+        grid-template-columns: 19.5% 19.67% 20.17% 19.8% auto;
+    -ms-grid-rows: 24% auto auto;
+        grid-template-rows: 24% auto auto;
+    gap: 7px;
+  }
+  .cmp-5 .grid_container .colspan-2 {
+    grid-column: span 2;
+  }
+  .cmp-5 .grid_container h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16.98px;
+    font-weight: 600;
+    line-height: 28.96px;
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 0;
+  }
+  .cmp-5 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 12.99px;
+    font-weight: 600;
+    line-height: 28.96px;
+    font-style: italic;
+    color: #3ab6b2;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-5 .grid_container {
+    height: 1017px;
+    text-align: center;
+    -ms-grid-columns: 19.5% 19.67% 20.17% 19.8% auto;
+        grid-template-columns: 19.5% 19.67% 20.17% 19.8% auto;
+    -ms-grid-rows: 24% auto auto;
+        grid-template-rows: 24% auto auto;
+    gap: 7px;
+  }
+  .cmp-5 .grid_container .colspan-2 {
+    grid-column: span 2;
+  }
+  .cmp-5 .grid_container h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16.98px;
+    font-weight: 600;
+    line-height: 28.96px;
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 0;
+  }
+  .cmp-5 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 12.99px;
+    font-weight: 600;
+    line-height: 28.96px;
+    font-style: italic;
+    color: #3ab6b2;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-5 .grid_container {
+    height: 1017px;
+    text-align: center;
+    -ms-grid-columns: 19.5% 19.67% 20.17% 19.8% auto;
+        grid-template-columns: 19.5% 19.67% 20.17% 19.8% auto;
+    -ms-grid-rows: 24% auto auto;
+        grid-template-rows: 24% auto auto;
+    gap: 7px;
+  }
+  .cmp-5 .grid_container .colspan-2 {
+    grid-column: span 2;
+  }
+  .cmp-5 .grid_container h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16.98px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    position: relative;
+    top: 2px;
+    left: 0;
+  }
+  .cmp-5 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 12.99px;
+    font-weight: 600;
+    line-height: 20px;
+    font-style: italic;
+    color: #3ab6b2;
+  }
+}
+
+.cmp-6 {
+  background: purple;
+  width: 100%;
+  height: 898px;
+}
 /*# sourceMappingURL=main.css.map */
