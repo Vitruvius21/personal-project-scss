@@ -2493,6 +2493,7 @@ body a {
   position: relative;
   top: 12px;
   left: 0;
+  color: #323232;
 }
 
 .cmp-5 .grid_container .gritem-1 .heading_decoration {
@@ -2550,6 +2551,10 @@ body a {
   gap: 11px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa-mb {
+  display: none;
 }
 
 .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa {
@@ -2649,6 +2654,10 @@ body a {
   transition: all 0.3s linear;
 }
 
+.cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa-mb {
+  display: none;
+}
+
 .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2744,6 +2753,10 @@ body a {
   gap: 11px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa-mb {
+  display: none;
 }
 
 .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa {
@@ -2843,6 +2856,10 @@ body a {
   transition: all 0.3s linear;
 }
 
+.cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa-mb {
+  display: none;
+}
+
 .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2938,6 +2955,10 @@ body a {
   gap: 11px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa-mb {
+  display: none;
 }
 
 .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa {
@@ -3037,6 +3058,10 @@ body a {
   transition: all 0.3s linear;
 }
 
+.cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa-mb {
+  display: none;
+}
+
 .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3132,6 +3157,10 @@ body a {
   gap: 11px;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
+}
+
+.cmp-5 .grid_container .gritem-8 .gritem_overlay_icons .fa-mb {
+  display: none;
 }
 
 .cmp-5 .grid_container .gritem-8 .gritem_overlay_icons .fa {
@@ -3322,6 +3351,9 @@ body a {
         grid-template-rows: 25% auto auto;
     gap: 21px;
   }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons {
+    gap: 8.8px;
+  }
   .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa {
     position: relative;
     top: -15px;
@@ -3332,6 +3364,9 @@ body a {
   .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa-link {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons {
+    gap: 8.8px;
   }
   .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa {
     position: relative;
@@ -3344,6 +3379,9 @@ body a {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons {
+    gap: 8.8px;
+  }
   .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa {
     position: relative;
     top: -15px;
@@ -3354,6 +3392,9 @@ body a {
   .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa-link {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons {
+    gap: 8.8px;
   }
   .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa {
     position: relative;
@@ -3366,6 +3407,9 @@ body a {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
   }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons {
+    gap: 8.8px;
+  }
   .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa {
     position: relative;
     top: -15px;
@@ -3376,6 +3420,9 @@ body a {
   .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa-link {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons {
+    gap: 8.8px;
   }
   .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa {
     position: relative;
@@ -3438,6 +3485,208 @@ body a {
     line-height: 21.68px;
     font-style: italic;
     color: #3ab6b2;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cmp-5 .grid_container {
+    width: 87.5vw;
+    height: 803px;
+    text-align: center;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+    -ms-grid-rows: 15% 20.3% auto auto auto;
+        grid-template-rows: 15% 20.3% auto auto auto;
+    row-gap: 7px;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-2 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-2 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-3 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-3 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-4 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-4 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-5 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-5 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-6 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-6 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons {
+    gap: 6.4px;
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons > :not(.fa-mb) {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa-mb {
+    display: block;
+  }
+  .cmp-5 .grid_container .gritem-7 .gritem_overlay_icons .fa {
+    position: relative;
+    top: -25px;
+    left: 0;
+    width: 26.4px;
+    height: 26.4px;
+    font-size: 12px;
+  }
+  .cmp-5 .grid_container .gritem-7 span {
+    display: none;
+  }
+  .cmp-5 .grid_container .gritem-2:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-3:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-4:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-5:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-6:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-7:hover .gritem_bottom_overlay {
+    height: 33%;
+  }
+  .cmp-5 .grid_container .gritem-1 h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 29.98px;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .cmp-5 .grid_container .gritem-1 .heading_decoration {
+    top: 10.5px;
+  }
+  .cmp-5 .grid_container .gritem-6,
+  .cmp-5 .grid_container .gritem-7,
+  .cmp-5 .grid_container .gritem-8 {
+    display: none;
+  }
+  .cmp-5 .grid_container h6 {
+    font-family: "Raleway", sans-serif;
+    font-size: 13.99px;
+    font-weight: 600;
+    line-height: 26.52px;
+    color: white;
+    letter-spacing: 0.005em;
+    position: relative;
+    top: 4px;
+    left: 0;
+  }
+  .cmp-5 .grid_container p {
+    font-family: "Raleway", sans-serif;
+    font-size: 10.99px;
+    font-weight: 600;
+    line-height: 21.68px;
+    font-style: italic;
+    color: #3ab6b2;
+    letter-spacing: 0.005em;
+    position: relative;
+    top: -1px;
+    left: 0;
   }
 }
 

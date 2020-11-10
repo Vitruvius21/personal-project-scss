@@ -1,2 +1,80 @@
 @media (min-width: 320px) and (max-width: 767px) {
+  .cmp-5 {
+    @include flex;
+
+    .grid_container {
+      width: 280 / 320 * 100 + vw;
+      height: 803px;
+      text-align: center;
+      grid-template-columns: auto;
+      grid-template-rows: 15% 20.3% auto auto auto;
+      row-gap: 7px;
+
+      @for $i from 2 through 7 {
+        .gritem-#{$i} {
+          .gritem_overlay_icons {
+            gap: 6.4px;
+
+            & > :not(.fa-mb) {
+              display: none;
+            }
+
+            .fa-mb {
+              display: block;
+            }
+
+            .fa {
+              @include position-relative(-25px);
+              width: 26.4px;
+              height: 26.4px;
+              font-size: 12px;
+            }
+          }
+
+          span {
+            display: none;
+          }
+        }
+      }
+
+      @for $i from 2 through 7 {
+        .gritem-#{$i}:hover {
+          .gritem_bottom_overlay {
+            height: 33%;
+          }
+        }
+      }
+
+      .gritem-1 {
+        h1 {
+          @include font(27px, 600, 29.98px);
+          @include position-relative;
+        }
+
+        .heading_decoration {
+          top: 10.5px;
+        }
+      }
+      .gritem-6,
+      .gritem-7,
+      .gritem-8 {
+        display: none;
+      }
+
+      h6 {
+        @include font(13.99px, 600, 26.52px);
+        color: $project-white;
+        letter-spacing: 0.005em;
+        @include position-relative(4px);
+      }
+
+      p {
+        @include font(10.99px, 600, 21.68px);
+        font-style: italic;
+        color: $project-green;
+        letter-spacing: 0.005em;
+        @include position-relative(-1px);
+      }
+    }
+  }
 }

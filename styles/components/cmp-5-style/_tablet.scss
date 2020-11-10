@@ -13,6 +13,8 @@
       @for $i from 2 through 7 {
         .gritem-#{$i} {
           .gritem_overlay_icons {
+            gap: 8.8px;
+
             .fa {
               @include position-relative(-15px);
               width: 37px;

@@ -23,6 +23,7 @@ $background-imgs: (
       h1 {
         @include font(31px, 600, 34px);
         @include position-relative(12px);
+        color: $heading_grey;
       }
 
       .heading_decoration {
@@ -52,6 +53,10 @@ $background-imgs: (
           visibility: hidden;
           gap: 11px;
           transition: all 0.3s linear;
+
+          .fa-mb {
+            display: none;
+          }
 
           .fa {
             @include flex;
@@ -100,23 +105,5 @@ $background-imgs: (
         }
       }
     }
-
-    // .gritem-2 {
-    //   background: palegoldenrod;
-    // }
-    // .gritem-3 {
-    //   background: paleturquoise;
-    // }
-    // .gritem-4 {
-    //   background: palevioletred;
-    // }
-    // .gritem-5 {
-    //   background: peachpuff;
-    // }
-    // .gritem-6,
-    // .gritem-7,
-    // .gritem-8 {
-    //   background: pink;
-    // }
   }
 }
