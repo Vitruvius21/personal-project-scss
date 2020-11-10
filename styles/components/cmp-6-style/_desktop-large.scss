@@ -1,2 +1,34 @@
 @media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-6 {
+    height: 898px;
+
+    .grid_container {
+      width: 945px;
+      height: 687.25px;
+      .gritem-1 {
+        h1 {
+          @include font(31px, 600, 34px);
+          color: $heading_grey;
+        }
+
+        .heading_decoration {
+          margin: 0 auto;
+          @include heading-decor;
+          font-size: 20px;
+          top: 10px;
+        }
+      }
+
+      p {
+        @include font(15px, 500, 24px);
+        @include position-relative(2px);
+        letter-spacing: 0.04em;
+        color: $contact-dark-grey;
+      }
+
+      .gritem-4 > * {
+        @include position-relative(2px, -15px);
+      }
+    }
+  }
 }

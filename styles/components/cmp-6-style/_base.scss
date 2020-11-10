@@ -1,5 +1,66 @@
 .cmp-6 {
-  background: purple;
+  @include flex;
   width: 100%;
-  height: 898px;
+
+  .grid_container {
+    @include position-relative(-12px);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 12.5% 35.9% auto;
+
+    .gritem-1 {
+      @include flex(flex-start);
+      grid-column: 1 / -1;
+      flex-flow: column nowrap;
+    }
+
+    @for $i from 2 through 4 {
+      .gritem-#{$i} {
+        @include flex;
+        flex-flow: column nowrap;
+        text-align: center;
+
+        .fa {
+          @include position-relative(-20px);
+          color: $project-green;
+          font-size: 32px;
+        }
+      }
+    }
+
+    .gritem-5.minor_grid_container {
+      grid-column: 1 / -1;
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 46px 46px 171px 42px;
+      gap: 15px 15px;
+
+      @for $i from 3 through 4 {
+        .minor_gritem-#{$i} {
+          grid-column: span 2;
+        }
+      }
+
+      .minor_gritem-5 {
+        @include button(160px, 42px);
+        color: $project-white;
+        user-select: none;
+        text-transform: uppercase;
+      }
+
+      input,
+      textarea {
+        border: 1px solid $input-border-grey;
+
+        &[placeholder] {
+          @include font(14px, 400, 34px);
+          letter-spacing: 0.005em;
+          padding-left: 9px;
+          padding-bottom: 4px;
+          color: $input-color;
+        }
+      }
+    }
+  }
 }

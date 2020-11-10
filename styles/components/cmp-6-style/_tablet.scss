@@ -1,2 +1,47 @@
 @media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-6 {
+    height: 774px;
+
+    .grid_container {
+      width: 719px;
+      height: 597px;
+      grid-template-rows: 12.5% 31.7% auto;
+
+      .gritem-1 {
+        h1 {
+          @include font(29px, 600, 32.38px);
+          color: $heading_grey;
+        }
+
+        .heading_decoration {
+          margin: 0 auto;
+          @include heading-decor;
+          font-size: 20px;
+          top: 10px;
+        }
+      }
+
+      .gritem-2 {
+        @include position-relative(0, -50px);
+      }
+      .gritem-4 {
+        @include position-relative(0, 53px);
+      }
+
+      @for $i from 2 through 4 {
+        .gritem-#{$i} {
+          .fa {
+            @include position-relative(-10px);
+          }
+        }
+      }
+    }
+
+    p {
+      @include font(15px, 500, 24px);
+      @include position-relative(10px);
+      letter-spacing: 0.04em;
+      color: $contact-dark-grey;
+    }
+  }
 }
