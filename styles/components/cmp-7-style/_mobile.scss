@@ -1,2 +1,38 @@
 @media (min-width: 320px) and (max-width: 767px) {
+  .cmp-7 {
+    height: 312px;
+
+    .grid_container {
+      width: 250px;
+      height: 228px;
+      grid-template-columns: repeat(4, 40px);
+      grid-template-rows: 2.3fr 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      gap: 9px;
+
+      .logo {
+        @include position-relative(4px, -1.5px);
+        justify-self: center;
+        align-self: start;
+        img {
+          width: 112px;
+        }
+      }
+
+      .gritem-6 {
+        grid-column: 2 / 3;
+      }
+
+      .gritem-7 {
+        grid-column: 3 / 4;
+      }
+
+      .gritem-8 {
+        @include position-relative(11px, -3px);
+        width: 250px;
+        justify-self: center;
+      }
+    }
+  }
 }

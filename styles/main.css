@@ -4229,4 +4229,240 @@ body a {
     gap: 10.8px 0;
   }
 }
+
+.cmp-7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #111111;
+  text-align: center;
+}
+
+.cmp-7 .grid_container {
+  width: 283px;
+  height: 193px;
+  position: relative;
+  top: -6.2px;
+  left: 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[6];
+      grid-template-columns: repeat(6, 1fr);
+  -ms-grid-rows: 1.76fr 1fr 1fr;
+      grid-template-rows: 1.76fr 1fr 1fr;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+}
+
+.cmp-7 .grid_container .logo {
+  grid-column: 1 / -1;
+}
+
+.cmp-7 .grid_container .logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cmp-7 .grid_container .gritem-8 {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  position: relative;
+  top: 4px;
+  left: 0;
+  grid-column: 1 / -1;
+}
+
+.cmp-7 .grid_container .gritem-2 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-2:hover {
+  background: #f2a60c;
+}
+
+.cmp-7 .grid_container .gritem-3 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-3:hover {
+  background: #1da1f2;
+}
+
+.cmp-7 .grid_container .gritem-4 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-4:hover {
+  background: #4267b2;
+}
+
+.cmp-7 .grid_container .gritem-5 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-5:hover {
+  background: #004fff;
+}
+
+.cmp-7 .grid_container .gritem-6 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-6:hover {
+  background: #05cc46;
+}
+
+.cmp-7 .grid_container .gritem-7 {
+  color: white;
+  background: #252525;
+  cursor: pointer;
+  font-size: 13px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.cmp-7 .grid_container .gritem-7:hover {
+  background: #ff0084;
+}
+
+.cmp-7 .grid_container p {
+  font-family: "Raleway", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 21.36px;
+  letter-spacing: 0.016em;
+  color: white;
+}
+
+@media (min-width: 1601px) and (max-width: 1920px) {
+  .cmp-7 {
+    height: 298px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  .cmp-7 {
+    height: 298px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .cmp-7 {
+    height: 298px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cmp-7 {
+    height: 298px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .cmp-7 {
+    height: 312px;
+  }
+  .cmp-7 .grid_container {
+    width: 250px;
+    height: 228px;
+    -ms-grid-columns: (40px)[4];
+        grid-template-columns: repeat(4, 40px);
+    -ms-grid-rows: 2.3fr 1fr 1fr 1fr;
+        grid-template-rows: 2.3fr 1fr 1fr 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 9px;
+  }
+  .cmp-7 .grid_container .logo {
+    position: relative;
+    top: 4px;
+    left: -1.5px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+  }
+  .cmp-7 .grid_container .logo img {
+    width: 112px;
+  }
+  .cmp-7 .grid_container .gritem-6 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / 3;
+  }
+  .cmp-7 .grid_container .gritem-7 {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / 4;
+  }
+  .cmp-7 .grid_container .gritem-8 {
+    position: relative;
+    top: 11px;
+    left: -3px;
+    width: 250px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
+}
 /*# sourceMappingURL=main.css.map */
