@@ -1,12 +1,3 @@
-$brand-colors: (
-  2: #f2a60c,
-  3: #1da1f2,
-  4: #4267b2,
-  5: #004fff,
-  6: #05cc46,
-  7: #ff0084,
-);
-
 .cmp-7 {
   @include flex;
   background: $project-darker-grey;
