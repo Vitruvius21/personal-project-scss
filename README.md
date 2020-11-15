@@ -6,8 +6,8 @@
 
 ### Tablet View Screenshot
 
-<img src="screenshots\tablet.png" alt="Screenshot of the website tablet view" style="max-width:100%">
+<img src="screenshots\tablet.png" alt="Screenshot of the website tablet view" style="max-width:80%">
 
 ### Mobile View Screenshot
 
-<img src="screenshots\mobile.png" alt="Screenshot of the website mobile view" style="max-width:100%">
+<img src="screenshots\mobile.png" alt="Screenshot of the website mobile view" style="max-width:60%">
