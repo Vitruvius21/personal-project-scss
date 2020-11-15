@@ -1,4 +1,4 @@
-# Personal Responsive Websie Project using HTML & SASS
+# Responsive Website Project using HTML & SASS
 
 ### Desktop View Screenshot
 
