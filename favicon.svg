@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo.svg"
+   id="svg39"
+   version="1.1"
+   height="45"
+   width="45">
+  <metadata
+     id="metadata43">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg39"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="-8"
+     inkscape:cy="24.585848"
+     inkscape:cx="50.526736"
+     inkscape:zoom="9.8066894"
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     showgrid="false"
+     id="namedview41"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs17">
+    <linearGradient
+       gradientTransform="scale(1.0847321,0.92188662)"
+       gradientUnits="userSpaceOnUse"
+       y2="48.433331"
+       x2="364.2832"
+       y1="56.896324"
+       x1="361.65363"
+       id="prefix__a">
+      <stop
+         id="stop2"
+         stop-color="#1b9a96"
+         offset="0" />
+      <stop
+         id="stop4"
+         stop-color="#005a57"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="scale(0.46081774,2.1700553)"
+       gradientUnits="userSpaceOnUse"
+       y2="19.542425"
+       x2="810.75061"
+       y1="26.333363"
+       x1="833.94739"
+       id="prefix__b">
+      <stop
+         id="stop7"
+         stop-color="#21a09c"
+         offset="0" />
+      <stop
+         id="stop9"
+         stop-color="#005653"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="scale(1.1686636,0.8556782)"
+       gradientUnits="userSpaceOnUse"
+       y2="33.979767"
+       x2="327.57928"
+       y1="52.23138"
+       x1="337.28268"
+       id="prefix__c">
+      <stop
+         id="stop12"
+         stop-color="#00807c"
+         offset="0" />
+      <stop
+         id="stop14"
+         stop-color="#3ab6b2"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <g
+     transform="translate(9,1.9925)"
+     id="g886">
+    <g
+       data-name="Shape 30"
+       id="g25">
+      <path
+         data-name="Shape 30"
+         d="m 10.527,20.418 10.366,-5.833 6.027,5.1 -16.313,8.832 z"
+         fill="#3ab6b2"
+         id="path21" />
+      <path
+         data-name="Gradient Overlay"
+         d="m 385.527,47.418 10.366,-5.833 6.027,5.1 -16.313,8.832 z"
+         opacity="0.77"
+         fill="url(#prefix__a)"
+         transform="translate(-375,-27)"
+         id="path23"
+         style="fill:url(#prefix__a)" />
+    </g>
+    <g
+       id="g874">
+      <g
+         id="g31"
+         data-name="Shape 31">
+        <path
+           id="path27"
+           fill="#3ab6b2"
+           d="M 0.08,4.538 7.795,8.184 7.826,41.015 0.08,41 Z"
+           data-name="Shape 31" />
+        <path
+           id="path29"
+           transform="translate(-375,-27)"
+           fill="url(#prefix__b)"
+           opacity="0.77"
+           d="m 375.08,31.538 7.715,3.646 0.031,32.831 L 375.08,68 Z"
+           data-name="Gradient Overlay"
+           style="fill:url(#prefix__b)" />
+      </g>
+      <g
+         id="g37"
+         data-name="Shape 29">
+        <path
+           id="path33"
+           fill="#3ab6b2"
+           d="M 0,4.538 7.634,0 27,11.1 26.92,19.769 Z"
+           data-name="Shape 29" />
+        <path
+           id="path35"
+           transform="translate(-375,-27)"
+           fill="url(#prefix__c)"
+           opacity="0.77"
+           d="M 375,31.538 382.634,27 402,38.1 l -0.08,8.669 z"
+           data-name="Gradient Overlay"
+           style="fill:url(#prefix__c)" />
+      </g>
+    </g>
+  </g>
+</svg>
